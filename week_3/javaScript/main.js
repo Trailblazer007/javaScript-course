@@ -114,7 +114,7 @@ animal = 'dragon';
 let languageFact = language.includes('on');
 let animalFact = animal.includes('on');
 
-console.log(!(animalFact && languageFact));
+console.log(!(animalFact && languageFact)); //added some stuff
 
 
 // 7. Use the Date object to do the following activities
