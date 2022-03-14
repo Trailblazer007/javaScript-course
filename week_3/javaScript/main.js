@@ -1,20 +1,20 @@
 // Exercises: Level 1
 // 1. Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
-firstName = 'Oluwaseun'; 
-lastName = 'Fatoye';       
-country = 'Estonia'; 
-city = 'Rakvere'; 
-age = 26; 
-isMarried = true; 
-year = 2022 
+// firstName = 'Oluwaseun'; 
+// lastName = 'Fatoye';       
+// country = 'Estonia'; 
+// city = 'Rakvere'; 
+// age = 26; 
+// isMarried = true; 
+// year = 2022 
 
-console.log(typeof firstName);
-console.log(typeof lastName);
-console.log(typeof country);
-console.log(typeof city);
-console.log(typeof age);
-console.log(typeof isMarried);
-console.log(typeof year);
+// console.log(typeof firstName);
+// console.log(typeof lastName);
+// console.log(typeof country);
+// console.log(typeof city);
+// console.log(typeof age);
+// console.log(typeof isMarried);
+// console.log(typeof year);
 
 // 2. Check if type of '10' is equal to 10
 console.log('10' == 10);
@@ -229,14 +229,30 @@ console.log(seconds);
 
 
 // 9. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+// let time = prompt('Enter hours');
+// let rate = prompt('Enter rate');
+
+// const weeklyEarning = time * rate;
+// console.log(`Your weekly earning is ${weeklyEarning}`); 
 
 // Enter hours: 40
 // Enter rate per hour: 28
 // Your weekly earning is 1120
 
 // 10. If the length of your name is greater than 7 say, your name is long else say your name is short.
+// let nameLength = 'Maxwell';
+// nameLength.length > 7 
+// ? console.log('Your name is long')
+// : console.log('Your name is short');
 
 // 11. Compare your first name length and your family name length and you should get this output.
+// let firstName = 'Oluwaseun';
+// let familyName = 'Fatoye';
+
+// firstName.length > familyName.length
+// ? console.log(`Your first name, ${firstName} is longer than your last name, ${familyName}`)
+// : console.log(`Your family name, ${familyName} is longer than your first name, ${firstName}`);
+
 
 // let firstName = 'Asabeneh'
 // let lastName = 'Yetayeh'
