@@ -114,7 +114,7 @@ animal = 'dragon';
 let languageFact = language.includes('on');
 let animalFact = animal.includes('on');
 
-console.log(!(animalFact && languageFact)); //added some stuff
+console.log(!(animalFact && languageFact)); 
 
 
 // 7. Use the Date object to do the following activities
@@ -217,15 +217,15 @@ console.log(seconds);
 // console.log(slopeOne == slopeTwo);
 
 // 8. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-a = 1;
-b = 6;
-c = 9;
+// a = 1;
+// b = 6;
+// c = 9;
 
-x1 = (-b + Math.sqrt(b^2 - 4*a*c))/2*a;
+// x1 = (-b + Math.sqrt(b**2 - 4*a*c))/2*a;
 
-x2 = (-b - Math.sqrt(b^2 - 4*a*c))/2*a;
+// x2 = (-b - Math.sqrt(b**2 - 4*a*c))/2*a;
 
-console.log(x1, x2);
+// console.log(x1, x2);
 
 
 // 9. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
