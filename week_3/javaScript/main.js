@@ -275,13 +275,13 @@ console.log(!(animalFact && languageFact));
 // const now = new Date();
 // let presentTime = now.getFullYear();
 
-// let currentAge = presentTime - birthYear;
+// let currentAge = presentTime - birthYear; 
 
 // let theAge = presentTime - birthYear;
 
-// theAge > 18
+// theAge > rightAge
 // ? console.log(`You are ${theAge}, You are old enough to drive`) 
-// : console.log(`You are ${theAge}, You will be allowed to drive after ${rightAge - currentAge} years `)
+// : console.log(`You are ${theAge}, You will be allowed to drive after ${rightAge - currentAge} years`);
 
 // Enter birth year: 1995
 // You are 25. You are old enough to drive
@@ -290,11 +290,26 @@ console.log(!(animalFact && languageFact));
 // You are 15. You will be allowed to drive after 3 years.
 
 // 14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+// const now = new Date();
+// let yearOld = prompt('Enter the number of years you\'ve lived');
+// let achievement = now.getTime(yearOld);
+// console.log(`You have lived for ${achievement} seconds`);
+
 
 // Enter number of years you live: 100
 // You lived 3153600000 seconds.
 
 // 15. Create a human readable time format using the Date time object
+// const now = new Date();
+// year = now.getFullYear();
+// month = now.getMonth() + 1;
+// date = now.getDate();
+// hour = now.getHours();
+// minutes = now.getMinutes();
+
+// console.log(`i. ${year}-${month}-${date} ${hour}:${minutes}`);
+// console.log(`ii. ${date}-${month}-${year} ${hour}:${minutes}`);
+// console.log(`iii. ${date}/${month}/${year} ${hour}:${minutes}`);
 
 // i. YYYY-MM-DD HH:mm
 // ii. DD-MM-YYYY HH:mm
@@ -303,3 +318,12 @@ console.log(!(animalFact && languageFact));
 // Exercises: Level 3
 // 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
 // i.YYY-MM-DD HH:mm eg. 20120-01-02 07:05
+
+const now = new Date();
+year = now.getFullYear();
+month = now.getMonth() + 1;
+date = now.getDate();
+hour = now.getHours();
+minutes = now.getMinutes();
+
+console.log(`i. ${year}-0${month}-0${date} 0${hour}:0${minutes}`);
