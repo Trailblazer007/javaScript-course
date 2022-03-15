@@ -119,34 +119,34 @@ console.log(!(animalFact && languageFact));
 
 // 7. Use the Date object to do the following activities
 
-const now = new Date();
+// const now = new Date();
 
-// i. What is the year today?
-console.log(now.getFullYear());
+// // i. What is the year today?
+// console.log(now.getFullYear());
 
-// ii. What is the month today as a number?
-const month = now.getMonth() + 1;
-console.log(month);
+// // ii. What is the month today as a number?
+// const month = now.getMonth() + 1;
+// console.log(month);
 
-// iii. What is the date today?
-const date = now.getDate();
-console.log(date);
+// // iii. What is the date today?
+// const date = now.getDate();
+// console.log(date);
 
-// iv. What is the day today as a number?
-const day = now.getDay() + 1;
-console.log(day); 
+// // iv. What is the day today as a number?
+// const day = now.getDay() + 1;
+// console.log(day); 
 
-// v. What is the hours now?
-const hours = now.getHours();
-console.log(hours);
+// // v. What is the hours now?
+// const hours = now.getHours();
+// console.log(hours);
 
-// vi. What is the minutes now?
-const minutes = now.getMinutes();
-console.log(minutes);
+// // vi. What is the minutes now?
+// const minutes = now.getMinutes();
+// console.log(minutes);
 
-// vii. Find out the numbers of seconds elapsed from January 1, 1970 to now.
-const seconds = now.getSeconds();
-console.log(seconds);
+// // vii. Find out the numbers of seconds elapsed from January 1, 1970 to now.
+// const seconds = now.getSeconds();
+// console.log(seconds);
 
 
 // Exercises: Level 2
@@ -259,12 +259,29 @@ console.log(seconds);
 // Your first name, Asabeneh is longer than your family name, Yetayeh
 
 // 12. Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+// let myAge = "myAge";
+// let yourAge = "yourAge";
+
 
 // let myAge = 250
 // let yourAge = 25
 // I am 225 years older than you.
 
 // 13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+// let rightAge = 18;
+// let birthYear = prompt('Enter birth year');
+ 
+
+// const now = new Date();
+// let presentTime = now.getFullYear();
+
+// let currentAge = presentTime - birthYear;
+
+// let theAge = presentTime - birthYear;
+
+// theAge > 18
+// ? console.log(`You are ${theAge}, You are old enough to drive`) 
+// : console.log(`You are ${theAge}, You will be allowed to drive after ${rightAge - currentAge} years `)
 
 // Enter birth year: 1995
 // You are 25. You are old enough to drive
