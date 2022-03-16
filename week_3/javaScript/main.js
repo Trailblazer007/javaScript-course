@@ -281,7 +281,7 @@ console.log(!(animalFact && languageFact));
 
 // theAge > rightAge
 // ? console.log(`You are ${theAge}, You are old enough to drive`) 
-// : console.log(`You are ${theAge}, You will be allowed to drive after ${rightAge - currentAge} years`);
+// : console.log(`You are ${theAge}, You will be allowed to drive after ${rightAge - currentAge} year`);
 
 // Enter birth year: 1995
 // You are 25. You are old enough to drive
@@ -319,11 +319,11 @@ console.log(!(animalFact && languageFact));
 // 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
 // i.YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
-const now = new Date();
-year = now.getFullYear();
-month = now.getMonth() + 1;
-date = now.getDate();
-hour = now.getHours();
-minutes = now.getMinutes();
+// const now = new Date();
+// year = now.getFullYear();
+// month = ("0" + (now.getMonth() + 1)).slice(-2);
+// date = ("0" + now.getDate()).slice(-2);
+// hour = now.getHours();
+// minutes = now.getMinutes();
 
-console.log(`i. ${year}-0${month}-0${date} 0${hour}:0${minutes}`);
+// console.log(`i. ${year}-${month}-${date} ${hour}:${minutes}`);
