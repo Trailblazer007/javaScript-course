@@ -8,4 +8,14 @@
 // userInput = prompt("Enter your age");
 // userInput >= 18
 // ? console.log("You are old enough to drive")
-// : console.log(`You are left with ${adultAge - userInput} years to drive `);
+// : console.log(`You are left with ${adultAge - userInput} years to drive`);
+
+//Using If, Else and Else If statements
+
+userInput = prompt("Enter your age");
+adultAge = 18;
+if (userInput >= adultAge){
+    console.log("You are old enough to drive")
+}else{
+    console.log(`You are left with ${adultAge - userInput} years to drive`)
+};
