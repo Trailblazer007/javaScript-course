@@ -16,6 +16,8 @@ userInput = prompt("Enter your age");
 adultAge = 18;
 if (userInput >= adultAge){
     console.log("You are old enough to drive")
-}else{
+}else if (userInput < 18){
     console.log(`You are left with ${adultAge - userInput} years to drive`)
-};
+}else{
+    console.log("Please enter a valid number")
+}
