@@ -23,4 +23,14 @@
 //     console.log("Please enter a valid number")
 // }
 
+// 2. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+myAge = prompt("Enter your age", "This value is for myAge");
+yourAge = prompt("Enter your age", "This value is for yourAge");
 
+if (myAge == yourAge){
+    console.log("We are age mates")
+}else if (myAge > yourAge){
+    console.log(`I am ${myAge - yourAge} years older than you`)
+}else{
+    console.log(`You are ${yourAge - myAge} years older than me`)
+}
