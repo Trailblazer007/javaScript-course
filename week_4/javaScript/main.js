@@ -30,7 +30,11 @@
 // if (myAge == yourAge ){
 //     console.log("We are age mates")
 // }else if (myAge > yourAge){
-//     console.log(`I am ${myAge - yourAge} years older than you`)
+//     console.log(
+//         myAge - yourAge == 1
+//         ? `I am ${myAge - yourAge} year older than you`
+//         : `I am ${myAge - yourAge} years older than you`
+//     );
 // }else{
 //     console.log(`You are ${yourAge - myAge} years older than me`)
 // }
@@ -71,16 +75,16 @@
 // 50-59, D
 // 0-49, F
 
-let grade = parseInt(prompt("Enter your score here"));
+// let grade = parseInt(prompt("Enter your score here"));
 
-if (grade >= 80 && grade <= 100){
-    console.log("A")
-}else if(grade >= 70 && grade <= 89){
-    console.log("B")
-}else if(grade >= 60 && grade <= 69){
-    console.log("C")
-}else if(grade >= 50 && grade <= 59){
-    console.log("D")
-}else(grade >= 0 && grade <= 49)
-    console.log("F")
-;
+// if (grade >= 80 && grade <= 100){
+//     console.log("A")
+// }else if(grade >= 70 && grade <= 89){
+//     console.log("B")
+// }else if(grade >= 60 && grade <= 69){
+//     console.log("C")
+// }else if(grade >= 50 && grade <= 59){
+//     console.log("D")
+// }else(grade >= 0 && grade <= 49){
+//     console.log("F")
+// }
