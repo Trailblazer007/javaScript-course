@@ -70,7 +70,7 @@
 // Exercises: Level 2
 // 1. Write a code which can give grades to students according to theirs scores:
 // 80-100, A
-// 70-89, B
+// 70-79, B
 // 60-69, C
 // 50-59, D
 // 0-49, F
@@ -79,12 +79,33 @@
 
 // if (grade >= 80 && grade <= 100){
 //     console.log("A")
-// }else if(grade >= 70 && grade <= 89){
+// }else if(grade >= 70 && grade <= 79){
 //     console.log("B")
 // }else if(grade >= 60 && grade <= 69){
 //     console.log("C")
 // }else if(grade >= 50 && grade <= 59){
 //     console.log("D")
-// }else(grade >= 0 && grade <= 49){
-//     console.log("F")
-// }
+// }else
+//     console.log("F");
+
+
+// 2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+// September, October or November, the season is Autumn.
+// December, January or February, the season is Winter.
+// March, April or May, the season is Spring
+// June, July or August, the season is Summer
+
+rawUserInput = (prompt("Enter month"));
+userInput = rawUserInput.toLowerCase();
+
+if (userInput == "september" || "october" || "november"){
+    console.log("The season is Autumn");
+}elseif (userInput == "december" || "january" || "february");{
+    console.log("The season is Winter");
+}elseif (userInput == "march" || "april" || "may");{
+    console.log("The season is Spring");
+}elseif (userInput == "june" || "july" || "august");{
+    console.log("The season is Summer");
+}else{
+    console.log("Please enter a month of the year")
+}
