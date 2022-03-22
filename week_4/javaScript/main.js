@@ -111,7 +111,9 @@
 //     console.log("The season is Summer");
 // }else {
 //     console.log("Please enter a month of the year")
-// }
+// } 
+
+                        // WAITING TO BE DELETED////////////
 
 
 
@@ -144,19 +146,49 @@
 //  }
 
 // 3. Check if a day is weekend day or a working day. Your script will take day as an input.
-day = (prompt('What day is today?')).toLowerCase();
+// day = (prompt('What day is today?')).toLowerCase();
 
-switch (day){
-    case 'monday':
-    case 'tuesday':
-    case 'wednesday':
-    case 'thursday':
-    case 'friday':
-        console.log(`${day} is a working day`)
-        break
-    case 'saturday':
-    case 'sunday':
-        console.log(`${day} is a weekend`)
-    default:
-        console.log("kindly make a valid entry")
-};
+// switch (day){
+//     case 'monday':
+//     case 'tuesday':
+//     case 'wednesday':
+//     case 'thursday':
+//     case 'friday':
+//         console.log(`${day} is a working day`)
+//         break
+//     case 'saturday':
+//     case 'sunday':
+//         console.log(`${day} is a weekend`)
+//     default:
+//         console.log("kindly make a valid entry")
+// };
+
+// Exercises: Level 3
+// 1. Write a program which tells the number of days in a month
+
+// rawUserInput = (prompt("Enter month"));
+// userInput = rawUserInput.toLowerCase();
+
+//  switch (userInput) {
+
+//     case 'september':
+//     case "june":
+//     case "november":
+//     case "april":
+//         console.log(`${userInput} has 30 days`)
+//         break;
+//     case "december":
+//     case "january":
+//     case "june":
+//     case "july":
+//     case "august":
+//     case "march":
+//     case "may":
+//         console.log(`${userInput} has 31 days`)
+//         break;
+//     case "february":
+//         console.log(`${userInput} has 28 days`)
+//         break;
+//     default: 
+//         console.log('something went horribly wrong!')
+//  };
