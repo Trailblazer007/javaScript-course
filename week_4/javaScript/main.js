@@ -192,3 +192,35 @@
 //     default: 
 //         console.log('something went horribly wrong!')
 //  };
+
+// 2. Write a program which tells the number of days in a month, now consider leap year
+// year = new Date().getFullYear()
+
+// rawUserInput = (prompt("Enter month"));
+// userInput = rawUserInput.toLowerCase();
+
+//  switch (userInput) {
+
+//     case 'september':
+//     case "june":
+//     case "november":
+//     case "april":
+//         console.log(`${userInput} has 30 days`)
+//         break;
+//     case "december":
+//     case "january":
+//     case "june":
+//     case "july":
+//     case "august":
+//     case "march":
+//     case "may":
+//         console.log(`${userInput} has 31 days`)
+//         break;
+//     case "february":
+//            if (year % 4 !== 0)
+//         {console.log(`${userInput} has 28 days`)}
+//            else {console.log(`${userInput} has 29 days`)}
+//         break;
+//     default: 
+//         console.log('something went horribly wrong!')
+//  };
