@@ -95,6 +95,9 @@
 // March, April or May, the season is Spring
 // June, July or August, the season is Summer
 
+
+
+
 // rawUserInput = (prompt("Enter month"));
 // userInput = rawUserInput.toLowerCase();
 
@@ -110,29 +113,50 @@
 //     console.log("Please enter a month of the year")
 // }
 
-rawUserInput = (prompt("Enter month"));
-userInput = rawUserInput.toLowerCase();
 
- switch (userInput) {
 
-    case 'september':
-    case "october":
-    case "november":
-        console.log("The season is Autumn")
-        break;
-    case "december":
-    case "january":
-    case "february":
-        console.log("The season is Winter")
-        break;
-    case "march":
-    case "april":
-    case "may":
-        console.log("The season is Spring")
-        break;   
-    case "june":
-    case "july":
-    case "august":
-        console.log("The season is Summer")
-    default: console.log('something went horribly wrong!')
- }
+
+// rawUserInput = (prompt("Enter month"));
+// userInput = rawUserInput.toLowerCase();
+
+//  switch (userInput) {
+
+//     case 'september':
+//     case "october":
+//     case "november":
+//         console.log("The season is Autumn")
+//         break;
+//     case "december":
+//     case "january":
+//     case "february":
+//         console.log("The season is Winter")
+//         break;
+//     case "march":
+//     case "april":
+//     case "may":
+//         console.log("The season is Spring")
+//         break;   
+//     case "june":
+//     case "july":
+//     case "august":
+//         console.log("The season is Summer")
+//     default: console.log('something went horribly wrong!')
+//  }
+
+// 3. Check if a day is weekend day or a working day. Your script will take day as an input.
+day = (prompt('What day is today?')).toLowerCase();
+
+switch (day){
+    case 'monday':
+    case 'tuesday':
+    case 'wednesday':
+    case 'thursday':
+    case 'friday':
+        console.log(`${day} is a working day`)
+        break
+    case 'saturday':
+    case 'sunday':
+        console.log(`${day} is a weekend`)
+    default:
+        console.log("kindly make a valid entry")
+};
