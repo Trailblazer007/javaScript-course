@@ -96,34 +96,34 @@
 // June, July or August, the season is Summer
 
 
+// solving using "if-else statemeents"
 
+// let rawUserInput;
+// let userInput;
 
 // rawUserInput = (prompt("Enter month"));
 // userInput = rawUserInput.toLowerCase();
 
-// if (userInput == "september" || userInput == "october" || userInput == "november"){
-//     console.log("The season is Autumn");
-// }else if (userInput == "december" || userInput == "january" || userInput == "february");{
-//     console.log("The season is Winter");
-// }else if (userInput == "march" || userInput == "april" || userInput == "may");{
-//     console.log("The season is Spring");
-// }else if (userInput == "june" || userInput == "july" || userInput == "august");{
-//     console.log("The season is Summer");
+// if (userInput == "september" || userInput == "october"|| userInput == "november"){
+//     console.log("The season is Autumn")
+// }else if (userInput == "december" || userInput == "january" || userInput == "february"){
+//     console.log("The season is Winter")
+// }else if (userInput == "march" || userInput == "april" || userInput == "may"){
+//     console.log("The season is Spring")
+// }else if (userInput == "june" || userInput == "july" || userInput == "august"){
+//     console.log("The season is Summer")
 // }else {
 //     console.log("Please enter a month of the year")
 // } 
 
-                        // WAITING TO BE DELETED////////////
-
-
-
+// solving using switch statements
 
 // rawUserInput = (prompt("Enter month"));
 // userInput = rawUserInput.toLowerCase();
 
 //  switch (userInput) {
 
-//     case 'september':
+//     case "september":
 //     case "october":
 //     case "november":
 //         console.log("The season is Autumn")
