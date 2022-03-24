@@ -3,16 +3,16 @@
 ExampleOfArray = Array();
 
 // 2. Declare an array with more than 5 number of elements
-arrayNum = ['one', 'two', 'three', 'four', 'five', 'six'];
+
 
 // 3. Find the length of your array
-console.log(arrayNum.length);
+
 
 // 4. Get the first item, the middle item and the last item of the array
-console.log(array.num[0], arrayNum[6/2], arrayNum[arrayNum.length - 1])
+
 
 // 5. Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
-let mixedDataTypes = ['toyota', 100, {'sex': male}, {hobbies: "coding", "playing the guitar"}];
+
 
 // 6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
 // 7. Print the array using console.log()
