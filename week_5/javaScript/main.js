@@ -30,6 +30,11 @@ console.log(itCompanies);
 console.log(itCompanies.length);
 
 // 9. Print the first company, middle and last company
+let firstItem = itCompanies[0];
+let middleItem =Math.floor(itCompanies.length / 2) ;
+let lastItem = itCompanies[itCompanies.length - 1];
+console.log(firstItem, middleItem, lastItem);
+
 // 10. Print out each company
 // 11. Change each company name to uppercase one by one and print them out
 // 12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
