@@ -3,10 +3,10 @@
 ExampleOfArray = Array();
 
 // 2. Declare an array with more than 5 number of elements
-
+arrayNum = ['one', 'two', 'three', 'four', 'five', 'six'];
 
 // 3. Find the length of your array
-
+console.log(arrayNum.length);
 
 // 4. Get the first item, the middle item and the last item of the array
 
