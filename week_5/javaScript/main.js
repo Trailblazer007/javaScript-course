@@ -25,7 +25,10 @@ const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle'
 
 // 7. Print the array using console.log()
 console.log(itCompanies);
+
 // 8. Print the number of companies in the array
+console.log(itCompanies.length);
+
 // 9. Print the first company, middle and last company
 // 10. Print out each company
 // 11. Change each company name to uppercase one by one and print them out
