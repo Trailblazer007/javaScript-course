@@ -31,14 +31,30 @@ console.log(itCompanies.length);
 
 // 9. Print the first company, middle and last company
 let firstItem = itCompanies[0];
-let middleItem =Math.floor(itCompanies.length / 2) ;
+let middleItem = itCompanies[Math.floor(itCompanies.length / 2)]; 
 let lastItem = itCompanies[itCompanies.length - 1];
 console.log(firstItem, middleItem, lastItem);
 
 // 10. Print out each company
+console.log(itCompanies[0]);
+console.log(itCompanies[1]);
+console.log(itCompanies[2]);
+console.log(itCompanies[3]);
+console.log(itCompanies[4]);
+console.log(itCompanies[5]);
+console.log(itCompanies[6]);
+
+
 // 11. Change each company name to uppercase one by one and print them out
+
+
+
 // 12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+
+
 // 13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+
+
 // 14. Filter out companies which have more than one 'o' without the filter method
 // 15. Sort the array using sort() method
 // 16. Reverse the array using reverse() method
