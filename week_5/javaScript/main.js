@@ -12,15 +12,17 @@
 // console.log(array.num[0], arrayNum[6/2], arrayNum[arrayNum.length - 1])
 
 // 5. Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
-let mixedDataTypes = ['toyota venza', 100, 
-{'sex': 'male'}, 
-{'hobbies': ['coding', 'playing bass']},
-{'sport': 'basketball'}
-];
+// let mixedDataTypes = ['toyota venza', 100, 
+// {'sex': 'male'}, 
+// {'hobbies': ['coding', 'playing bass']},
+// {'sport': 'basketball'}
+// ];
 
-console.log(mixedDatatypes.length)
+// console.log(mixedDatatypes.length)
 
 // 6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+
 // 7. Print the array using console.log()
 // 8. Print the number of companies in the array
 // 9. Print the first company, middle and last company
