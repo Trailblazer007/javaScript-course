@@ -24,6 +24,7 @@
 const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 
 // 7. Print the array using console.log()
+console.log(itCompanies);
 // 8. Print the number of companies in the array
 // 9. Print the first company, middle and last company
 // 10. Print out each company
