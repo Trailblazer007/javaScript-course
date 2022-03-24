@@ -9,7 +9,7 @@ arrayNum = ['one', 'two', 'three', 'four', 'five', 'six'];
 console.log(arrayNum.length);
 
 // 4. Get the first item, the middle item and the last item of the array
-
+console.log(array.num[0], arrayNum[6/2], arrayNum[arrayNum.length - 1])
 
 // 5. Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
 
