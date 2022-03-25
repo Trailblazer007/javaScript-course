@@ -74,8 +74,14 @@ if(itCompanies.includes(result)){
 };
 
 // 14. Filter out companies which have more than one 'o' without the filter method
+
+
 // 15. Sort the array using sort() method
+console.log(itCompanies.sort());
+
 // 16. Reverse the array using reverse() method
+console.log(itCompanies.reverse());
+
 // 17. Slice out the first 3 companies from the array
 // 18. Slice out the last 3 companies from the array
 // 19. Slice out the middle IT company or companies from the array
