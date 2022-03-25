@@ -24,43 +24,54 @@
 const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 
 // 7. Print the array using console.log()
-console.log(itCompanies);
+// console.log(itCompanies);
 
 // 8. Print the number of companies in the array
-console.log(itCompanies.length);
+// console.log(itCompanies.length);
 
 // 9. Print the first company, middle and last company
-let firstItem = itCompanies[0];
-let middleItem = itCompanies[Math.floor(itCompanies.length / 2)]; 
-let lastItem = itCompanies[itCompanies.length - 1];
-console.log(firstItem, middleItem, lastItem);
+// let firstItem = itCompanies[0];
+// let middleItem = itCompanies[Math.floor(itCompanies.length / 2)]; 
+// let lastItem = itCompanies[itCompanies.length - 1];
+// console.log(firstItem, middleItem, lastItem);
 
 // 10. Print out each company
-console.log(itCompanies[0]);
-console.log(itCompanies[1]);
-console.log(itCompanies[2]);
-console.log(itCompanies[3]);
-console.log(itCompanies[4]);
-console.log(itCompanies[5]);
-console.log(itCompanies[6]);
+// console.log(itCompanies[0]);
+// console.log(itCompanies[1]);
+// console.log(itCompanies[2]);
+// console.log(itCompanies[3]);
+// console.log(itCompanies[4]);
+// console.log(itCompanies[5]);
+// console.log(itCompanies[6]);
 
 
 // 11. Change each company name to uppercase one by one and print them out
 
-console.log(itCompanies[0].toUpperCase());
-console.log(itCompanies[1].toUpperCase());
-console.log(itCompanies[2].toUpperCase());
-console.log(itCompanies[3].toUpperCase());
-console.log(itCompanies[4].toUpperCase());
-console.log(itCompanies[5].toUpperCase());
-console.log(itCompanies[6].toUpperCase());
+// console.log(itCompanies[0].toUpperCase());
+// console.log(itCompanies[1].toUpperCase());
+// console.log(itCompanies[2].toUpperCase());
+// console.log(itCompanies[3].toUpperCase());
+// console.log(itCompanies[4].toUpperCase());
+// console.log(itCompanies[5].toUpperCase());
+// console.log(itCompanies[6].toUpperCase());
 
 // 12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 
-console.log(itCompanies.join(", ") + ' are big IT companies');
+// console.log(itCompanies.join(", ") + ' are big IT companies');
 
 // 13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 
+userInput = prompt('Enter company name');
+
+pattern = /itCompanies[Math.floor((Math.random() * 7))]/i;
+
+result = userInput.match(pattern);
+
+if(itCompanies.includes(result)){
+    console.log(userInput)
+}else{
+    console.log("a company is not found")
+};
 
 // 14. Filter out companies which have more than one 'o' without the filter method
 // 15. Sort the array using sort() method
