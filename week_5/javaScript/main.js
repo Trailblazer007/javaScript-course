@@ -102,3 +102,4 @@ console.log(itCompanies.splice(3,1));
 console.log(itCompanies.pop());
 
 // 23. Remove all IT companies
+console.log(itCompanies.slice(0,0));
