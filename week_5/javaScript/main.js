@@ -103,3 +103,7 @@ console.log(itCompanies.pop());
 
 // 23. Remove all IT companies
 console.log(itCompanies.slice(0,0));
+
+//OR
+
+console.log(itCompanies.splice());
