@@ -93,6 +93,8 @@ console.log(itCompanies.slice(-3));
 console.log(itCompanies.slice(3,4));
 
 // 20. Remove the first IT company from the array
+console.log(itCompanies.shift());
+
 // 21. Remove the middle IT company or companies from the array
 // 22. Remove the last IT company from the array
 // 23. Remove all IT companies
