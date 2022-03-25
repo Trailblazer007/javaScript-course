@@ -99,4 +99,6 @@ console.log(itCompanies.shift());
 console.log(itCompanies.splice(3,1));
 
 // 22. Remove the last IT company from the array
+console.log(itCompanies.pop());
+
 // 23. Remove all IT companies
