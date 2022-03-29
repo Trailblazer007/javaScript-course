@@ -21,7 +21,8 @@
 // console.log(mixedDatatypes.length)
 
 // 6. Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
-const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+// itCompanies = itCompanies.map( company => company.toLocaleUpperCase() );
 
 // 7. Print the array using console.log()
 // console.log(itCompanies);
@@ -63,18 +64,14 @@ const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle'
 
 userInput = prompt('Enter company name');
 
-pattern = /itCompanies[Math.floor((Math.random() * 7))]/i;
-
-result = userInput.match(pattern);
-
-if(itCompanies.includes(result)){
+if(itCompanies.includes(userInput)){
     console.log(userInput)
 }else{
     console.log("a company is not found")
 };
 
 // 14. Filter out companies which have more than one 'o' without the filter method
-
+console.log(itCompanies.filter('o'));
 
 // 15. Sort the array using sort() method
 console.log(itCompanies.sort());
