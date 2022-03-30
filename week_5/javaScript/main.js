@@ -62,45 +62,51 @@ let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 
 
 // 13. Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
 
-userInput = prompt('Enter company name');
+// userInput = prompt('Enter company name');
 
-if(itCompanies.includes(userInput)){
+let regexMatch = (/facebook | google | microsoft | apple | ibm  | oracle | amazon/gi)
+let result = regexMatch.test(itCompanies);
+
+if(result = true){
     console.log(userInput)
 }else{
     console.log("a company is not found")
 };
 
 // 14. Filter out companies which have more than one 'o' without the filter method
-console.log(itCompanies.filter('o'));
+let word;
+var companiesWithMoreThanOneLetterO = itCompanies.filter(function(element){if e.includes("o") )}
+
+console.log(companiesWithMoreThanOneLetterO);
 
 // 15. Sort the array using sort() method
-console.log(itCompanies.sort());
+// console.log(itCompanies.sort());
 
 // 16. Reverse the array using reverse() method
-console.log(itCompanies.reverse());
+// console.log(itCompanies.reverse());
 
 // 17. Slice out the first 3 companies from the array
-console.log(itCompanies.slice(0,3));
+// console.log(itCompanies.slice(0,3));
 
 // 18. Slice out the last 3 companies from the array
-console.log(itCompanies.slice(-3));
+// console.log(itCompanies.slice(-3));
 
 
 // 19. Slice out the middle IT company or companies from the array
-console.log(itCompanies.slice(3,4));
+// console.log(itCompanies.slice(3,4));
 
 // 20. Remove the first IT company from the array
-console.log(itCompanies.shift());
+// console.log(itCompanies.shift());
 
 // 21. Remove the middle IT company or companies from the array
-console.log(itCompanies.splice(3,1));
+// console.log(itCompanies.splice(3,1));
 
 // 22. Remove the last IT company from the array
-console.log(itCompanies.pop());
+// console.log(itCompanies.pop());
 
 // 23. Remove all IT companies
-console.log(itCompanies.slice(0,0));
+// console.log(itCompanies.slice(0,0));
 
 //OR
 
-console.log(itCompanies.splice());
+// console.log(itCompanies.splice());
