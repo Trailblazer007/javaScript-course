@@ -64,20 +64,23 @@ let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 
 
 // userInput = prompt('Enter company name');
 
-let regexMatch = (/facebook | google | microsoft | apple | ibm  | oracle | amazon/gi)
-let result = regexMatch.test(itCompanies);
+// let regexMatch = (/facebook | google | microsoft | apple | ibm  | oracle | amazon/gi)
+// let result = regexMatch.test(itCompanies);
 
-if(result = true){
-    console.log(userInput)
-}else{
-    console.log("a company is not found")
-};
+// if(result = true){
+//     console.log(userInput)
+// }else{
+//     console.log("a company is not found")
+// };
 
 // 14. Filter out companies which have more than one 'o' without the filter method
-let word;
-var companiesWithMoreThanOneLetterO = itCompanies.filter(function(element){if e.includes("o") )}
 
-console.log(companiesWithMoreThanOneLetterO);
+// let words = itCompanies.filter((e) => 
+//      e.includes('oo')
+// )
+//  console.log(words);
+
+
 
 // 15. Sort the array using sort() method
 // console.log(itCompanies.sort());
