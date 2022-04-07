@@ -39,7 +39,8 @@ console.log(sortedAges);
 let minAge = sortedAges[0];
 console.log(minAge);
 
-
+let maxAge = sortedAges[sortedAges.length - 1];
+console.log(maxAge);
 
 // Find the median age(one middle item or two middle items divided by two)
 // Find the average age(all items divided by number of items)
