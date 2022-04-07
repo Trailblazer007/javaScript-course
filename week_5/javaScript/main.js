@@ -138,3 +138,5 @@ console.log(shoppingCart)
 
 // modify Tea to 'Green Tea'
 shoppingCart[3] = "Tea";
+
+

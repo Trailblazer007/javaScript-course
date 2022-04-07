@@ -12,3 +12,13 @@ const countries = [
   'Japan',
   'Kenya'
 ];
+
+//4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+
+function checker(name){
+    if (countries.includes(name)) {
+        return name.toUpperCase();
+    }else countries.push(name)
+}
+console.log(checker("Ethiopia"))
+console.log(countries);
