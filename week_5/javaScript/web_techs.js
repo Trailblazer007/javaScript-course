@@ -36,6 +36,9 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 let sortedAges = ages.sort();
 console.log(sortedAges);
 
+let minAge = sortedAges[0];
+console.log(minAge);
+
 
 
 // Find the median age(one middle item or two middle items divided by two)
