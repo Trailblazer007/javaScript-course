@@ -31,7 +31,7 @@ const webTechs = [
 // 1. The following is an array of 10 students ages:
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 
-//Sort the array and find the min and max age
+// i. Sort the array and find the min and max age
 
 // let sortedAges = ages.sort();
 // console.log(sortedAges);
@@ -42,23 +42,33 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 // let maxAge = sortedAges[sortedAges.length - 1];
 // console.log('The maxAge is ' + maxAge);
 
-// Find the median age(one middle item or two middle items divided by two)
-let sortedAges = ages.sort();
-let medianOdd = sortedAges[Math.floor(sortedAges.length / 2)];
+// ii. Find the median age(one middle item or two middle items divided by two)
+// let sortedAges = ages.sort();
+// let medianOdd = sortedAges[Math.floor(sortedAges.length / 2)];
 
-let medianEven = (sortedAges[Math.floor(sortedAges.length / 2)] + sortedAges[Math.ceil(sortedAges.length / 2)]) / 2
+// let medianEven = (sortedAges[Math.floor(sortedAges.length / 2)] + sortedAges[Math.ceil(sortedAges.length / 2)]) / 2
 
-function medianChecker(){
-    if (sortedAges.length % 2  == 0){
-        return medianEven
-    }
-    else {
-        return medianOdd
-    }
+// function medianChecker(){
+//     if (sortedAges.length % 2  == 0){
+//         return medianEven
+//     }
+//     else {
+//         return medianOdd
+//     }
+// }
+// console.log('The median age is ' + medianChecker() + ' years');
+
+
+// iii. Find the average age (all items divided by number of items)
+let sum = 0;
+let average = 0;
+function arrayAverage(){
+    for(let i = 0; i < ages.length; i++){
+         average = (sum += ages[i]) / ages.length;
+    } return average;
 }
-console.log('The median age is ' + medianChecker() + ' years');
+console.log(arrayAverage(ages));
 
 
-// Find the average age(all items divided by number of items)
 // Find the range of the ages(max minus min)
 // Compare the value of (min - average) and (max - average), use abs() method 1.Slice the first ten countries from the countries array
