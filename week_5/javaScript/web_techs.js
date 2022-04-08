@@ -60,15 +60,20 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 
 
 // iii. Find the average age (all items divided by number of items)
-let sum = 0;
-let average = 0;
-function arrayAverage(){
-    for(let i = 0; i < ages.length; i++){
-         average = (sum += ages[i]) / ages.length;
-    } return average;
-}
-console.log(arrayAverage(ages));
+// let sum = 0;
+// let average = 0;
+// function arrayAverage(){
+//     for(let i = 0; i < ages.length; i++){
+//          average = (sum += ages[i]) / ages.length;
+//     } return average;
+// }
+// console.log(arrayAverage(ages));
 
 
-// Find the range of the ages(max minus min)
+// iv. Find the range of the ages(max minus min)
+// let sortedAges = ages.sort();
+// let range =  sortedAges[sortedAges.length - 1] - sortedAges[0];
+
+// console.log(range);
+
 // Compare the value of (min - average) and (max - average), use abs() method 1.Slice the first ten countries from the countries array
