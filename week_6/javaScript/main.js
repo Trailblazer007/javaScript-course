@@ -69,3 +69,23 @@ const webTechs = [
 //     console.log(webTechs[i])
 //     i++
 // }while(i<webTechs.length)
+
+
+// 2. Iterate 10 to 0 using for loop, do the same using while and do while loop
+
+// Using while loop
+
+let i = countries.length - 1;
+while(i >= 0 ){
+    console.log(countries[i])
+    i--
+} 
+
+
+// Using do while loop
+
+// let i = 0;
+// do{
+//     console.log(countries[i])
+//     i++
+// }while(i < countries.length)
