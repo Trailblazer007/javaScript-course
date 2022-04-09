@@ -55,3 +55,10 @@ const webTechs = [
 // for(i = 0; i<webTechs.length; i++){
 //     console.log(webTechs[i])
 // }
+
+// Ieterating using while loop
+// let i = 0;
+// while(i<webTechs.length){
+//     console.log(webTechs[i])
+//     i++
+// }
