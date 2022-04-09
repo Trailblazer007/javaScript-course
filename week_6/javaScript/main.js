@@ -20,11 +20,21 @@ for(let i = 0; i<countries.length; i++){
     console.log(countries[i])
 }
 
+
 // Using while loop
 
-let i = 0;
-while(i < countries.length){
-    console.log(countries[i])
-    i++
-} 
+// let i = 0;
+// while(i < countries.length){
+//     console.log(countries[i])
+//     i++
+// } 
+
+
+// Using do while loop
+
+// let i = 0;
+// do{
+//     console.log(countries[i])
+//     i++
+// }while(i < countries.length)
 
