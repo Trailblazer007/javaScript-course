@@ -75,17 +75,17 @@ const webTechs = [
 
 // Using while loop
 
-let i = countries.length - 1;
-while(i >= 0 ){
-    console.log(countries[i])
-    i--
-} 
+// let i = countries.length - 1;
+// while(i >= 0 ){
+//     console.log(countries[i])
+//     i--
+// } 
 
 
 // Using do while loop
 
-// let i = 0;
+// let i = countries.length - 1;
 // do{
 //     console.log(countries[i])
-//     i++
-// }while(i < countries.length)
+//     i--
+// }while(i >= 0)
