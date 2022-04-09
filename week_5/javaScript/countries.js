@@ -15,10 +15,13 @@ const countries = [
 
 //4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
-function checker(name){
-    if (countries.includes(name)) {
-        return name.toUpperCase();
-    }else countries.push(name)
-}
-console.log(checker("Ethiopia"))
-console.log(countries);
+// function checker(name){
+//     if (countries.includes(name)) {
+//         return name.toUpperCase();
+//     }else countries.push(name)
+// }
+// console.log(checker("Ethiopia"))
+// console.log(countries);
+
+// 1.Slice the first ten countries from the countries array
+console.log(countries.slice(0,10));

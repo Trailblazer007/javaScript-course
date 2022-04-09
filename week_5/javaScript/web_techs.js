@@ -76,7 +76,7 @@ let range =  sortedAges[sortedAges.length - 1] - sortedAges[0];
 
 console.log(range);
 
-// v Compare the value of (min - average) and (max - average), use abs() method 1.Slice the first ten countries from the countries array
+// v Compare the value of (min - average) and (max - average), use abs() method 
 let min = sortedAges[0];
 let max = sortedAges[sortedAges.length - 1];
 
@@ -85,3 +85,4 @@ let maxAverage = Math.abs(max - average);
 
 console.log(minAverage)
 console.log(maxAverage)
+
