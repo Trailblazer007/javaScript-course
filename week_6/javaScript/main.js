@@ -96,16 +96,16 @@ const webTechs = [
 // For the webTechs
 
 // Ieterating using while loop
-let i = webTechs.length - 1;
-while(i>= 0){
-    console.log(webTechs[i])
-    i--
-}
+// let i = webTechs.length - 1;
+// while(i>= 0){
+//     console.log(webTechs[i])
+//     i--
+// }
 
 // Ieterating using the do while loop
-// let i = 0;
-// do{
-//     console.log(webTechs[i])
-//     i++
-// }while(i<webTechs.length)
+let i = webTechs.length - 1;
+do{
+    console.log(webTechs[i])
+    i--
+}while(i >= 0)
 
