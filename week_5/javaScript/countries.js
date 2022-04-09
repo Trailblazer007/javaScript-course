@@ -31,4 +31,10 @@ let midCountry = countries[Math.floor(countries.length / 2)];
 console.log(`The country at the middle is: ${midCountry}`);
 
 
-// 3. Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+/* 3. Divide the countries array into two equal arrays if it is even. 
+If countries array is not even , one more country for the first half.*/
+let midIndex = Math.floor(countries.length / 2);
+const firstHalf = countries.splice(0, midIndex + 1);
+const secondHalf = countries.splice(-midIndex);
+console.log(firstHalf);
+console.log(secondHalf);
