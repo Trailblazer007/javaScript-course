@@ -16,9 +16,10 @@ const countries = [
 ] 
 
 // Using for loop
-for(let i = 0; i<countries.length; i++){
-    console.log(countries[i])
-}
+
+// for(let i = 0; i<countries.length; i++){
+//     console.log(countries[i])
+// }
 
 
 // Using while loop
@@ -38,3 +39,19 @@ for(let i = 0; i<countries.length; i++){
 //     i++
 // }while(i < countries.length)
 
+
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+
+// Ieterating using for loop
+
+// for(i = 0; i<webTechs.length; i++){
+//     console.log(webTechs[i])
+// }
