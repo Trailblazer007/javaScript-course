@@ -62,3 +62,10 @@ const webTechs = [
 //     console.log(webTechs[i])
 //     i++
 // }
+
+// Ieterating using the do while loop
+// let i = 0;
+// do{
+//     console.log(webTechs[i])
+//     i++
+// }while(i<webTechs.length)
