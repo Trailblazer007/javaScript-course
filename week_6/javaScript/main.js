@@ -117,6 +117,14 @@ const webTechs = [
 //     console.log(i)
 // }
 
+// Using a function
+
+function reLoop(n){
+    for(i=0; i<=n; i++){
+        console.log(i)
+    }
+}
+console.log(reLoop(9))
 
 
 
