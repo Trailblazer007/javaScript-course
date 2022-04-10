@@ -103,9 +103,20 @@ const webTechs = [
 // }
 
 // Ieterating using the do while loop
-let i = webTechs.length - 1;
-do{
-    console.log(webTechs[i])
-    i--
-}while(i >= 0)
+// let i = webTechs.length - 1;
+// do{
+//     console.log(webTechs[i])
+//     i--
+// }while(i >= 0)
+
+
+// 3. Iterate 0 to n using for loop
+
+// let n = prompt('Enter a number');
+// for(i=0; i<=n; i++){
+//     console.log(i)
+// }
+
+
+
 
