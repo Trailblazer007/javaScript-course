@@ -119,12 +119,26 @@ const webTechs = [
 
 // Using a function
 
-function reLoop(n){
-    for(i=0; i<=n; i++){
-        console.log(i)
-    }
-}
-console.log(reLoop(9))
+// function reLoop(n){
+//     for(i=0; i<=n; i++){
+//         console.log(i)
+//     }
+// }
+// console.log(reLoop(9))
+
+// 4. Write a loop that makes the following pattern using console.log():
+    // #
+    // ##
+    // ###
+    // ####
+    // #####
+    // ######
+    // #######
+
+    for(var i=1; i<=8; i++){
+        console.log("#".repeat(i));
+     }
+
 
 
 
