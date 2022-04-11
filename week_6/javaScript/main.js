@@ -172,10 +172,19 @@ const webTechs = [
 //  9    81    729
 //  10   100   1000
 
-console.log('i' + '    ' + 'i^2' + '    ' + 'i^3')
-for(let i= 0; i<=10; i++){
-    console.log(`${i}     ${i**2}     ${i**3}`)
-} 
+// console.log('i' + '    ' + 'i^2' + '    ' + 'i^3')
+// for(let i= 0; i<=10; i++){
+//     console.log(`${i}     ${i**2}     ${i**3}`)
+// } 
+
+
+// 7. Use for loop to iterate from 0 to 100 and print only even numbers
+// for(let i=0; i<=100; i++){
+//   if(i%2==0){
+//     console.log(i)
+//   }
+  
+// }
 
 
 
