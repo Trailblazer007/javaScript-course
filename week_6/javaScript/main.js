@@ -194,15 +194,30 @@ const webTechs = [
 // }
 
 // 9. Use for loop to iterate from 0 to 100 and print only prime numbers
+let count = 0;
+let i,j 
 
+for(j=2;j<=100;j++)
+{
+    for( i=1;i<=j;i++)
+    {
+        if(j%i==0) count++
+    }
+
+    if(count==2)
+    console.log(j)
+    count=0
+    
+}
 
 // 10. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
-let sum = 0;
-for(let i=0; i<=100; i++){
-  sum += i
-}
-console.log(sum)
+// let sum = 0;
+// for(let i=0; i<=100; i++){
+//   sum += i
+// }
+// console.log(sum)
 
+// 11. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
 
 
