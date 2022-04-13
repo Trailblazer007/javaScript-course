@@ -259,6 +259,13 @@ const webTechs = [
 // console.log(arrOddEven);
 
 // 13. Develop a small script which generates array of 5 random numbers
+// let newArray = [];
+// for(let i = 0; i <= 4; i++){
+//   randomNo = Math.random()
+//   newArray.push(randomNo);
+// }
+// console.log(newArray)
+
 
 
 // 14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
