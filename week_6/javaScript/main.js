@@ -218,26 +218,45 @@ const webTechs = [
 // console.log(sum)
 
 // 11. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
-let odd = 0;
-let even = 0;
+// let odd = 0;
+// let even = 0;
 
-for(i=0; i<=100; i++){
-  if(i % 2 == 0){
-    even += i
-  }
-}; 
+// for(i=0; i<=100; i++){
+//   if(i % 2 == 0){
+//     even += i
+//   }
+// }; 
 
-for(j=0; j<=100; j++){
-  if(j % 2 !== 0){
-    odd += j
-  }
-}
+// for(j=0; j<=100; j++){
+//   if(j % 2 !== 0){
+//     odd += j
+//   }
+// }
     
 
-console.log(`The sum of odd numbers are: ${odd} `);
-console.log(`The sum of even numbers are: ${even} `);
+// console.log(`The sum of odd numbers are: ${odd} `);
+// console.log(`The sum of even numbers are: ${even} `);
 
 
+// 12. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
+// let odd = 0;
+// let even = 0;
+
+// for(i=0; i<=100; i++){
+//   if(i % 2 == 0){
+//     even += i
+//   }
+// }; 
+
+// for(j=0; j<=100; j++){
+//   if(j % 2 !== 0){
+//     odd += j
+//   }
+// }
+
+// arrOddEven = Array();
+// arrOddEven.push(even, odd);
+// console.log(arrOddEven);
 
 
 
