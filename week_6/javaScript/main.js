@@ -259,6 +259,9 @@ const webTechs = [
 // console.log(arrOddEven);
 
 // 13. Develop a small script which generates array of 5 random numbers
+
+
+// 14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
 // let randomToFifty = Math.random() * 50
 // nextArr = [];
 
@@ -268,7 +271,6 @@ const webTechs = [
   
 // }console.log(nextArr)
 
-// 14. 
 
 
 
