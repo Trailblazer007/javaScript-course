@@ -259,13 +259,16 @@ const webTechs = [
 // console.log(arrOddEven);
 
 // 13. Develop a small script which generates array of 5 random numbers
-let randomToFifty = Math.random() * 50
+// let randomToFifty = Math.random() * 50
+// nextArr = [];
 
-for(let k = 0; k <= 4; k++){
+// for(let k = 0; k <= 4; k++){
+//   myValues = (Math.random() + randomToFifty )
+//   nextArr.push(myValues)
   
-  console.log((Math.random()) + randomToFifty )
-}
+// }console.log(nextArr)
 
+// 14. 
 
 
 
