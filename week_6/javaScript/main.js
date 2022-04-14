@@ -281,7 +281,12 @@ const webTechs = [
 // 15. Develop a small script which generate a six characters random id: 
 // 5j2khz
 
-console.log(Math.floor(Math.random() * Math.pow(16, 6)).toString('16').padStart(6, '0'))
+// console.log(Math.floor(Math.random() * Math.pow(16, 6)).toString('16').padStart(6, '0'))
+
+// Exercises: Level 2
+// 1. Develop a small script which generate any number of characters random id:
+// console.log(Math.floor(Math.random() * Math.pow(16,6)).toString('16'))
+
 
 
 
