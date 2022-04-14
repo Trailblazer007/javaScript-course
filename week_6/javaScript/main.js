@@ -278,6 +278,13 @@ const webTechs = [
   
 // }console.log(nextArr)
 
+// 15. Develop a small script which generate a six characters random id: 
+// 5j2khz
+
+console.log(Math.floor(Math.random() * Math.pow(16, 6)).toString('16').padStart(6, '0'))
+
+
+
 
 
 
