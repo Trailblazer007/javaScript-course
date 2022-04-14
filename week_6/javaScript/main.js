@@ -288,7 +288,17 @@ const webTechs = [
 // console.log(Math.floor(Math.random() * Math.pow(16,6)).toString('16'))
 
 // 2. Write a script which generates a random hexadecimal number.
-console.log(Math.floor(Math.random() * Math.pow(16, 6)).toString('16'))
+// console.log(Math.floor(Math.random() * Math.pow(16, 6)).toString('16'))
+
+// 3. Write a script which generates a random rgb color number.
+// rgb(240,180,80)
+
+// let red = Math.floor(Math.random() * 255);
+// let green = Math.floor(Math.random() * 255);
+// let blue = Math.floor(Math.random() * 255);
+
+
+// console.log(`rgb(${red} ${green} ${blue})` )
 
 
 
