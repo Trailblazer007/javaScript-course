@@ -287,6 +287,9 @@ const webTechs = [
 // 1. Develop a small script which generate any number of characters random id:
 // console.log(Math.floor(Math.random() * Math.pow(16,6)).toString('16'))
 
+// 2. Write a script which generates a random hexadecimal number.
+console.log(Math.floor(Math.random() * Math.pow(16, 6)).toString('16'))
+
 
 
 
