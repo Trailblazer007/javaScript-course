@@ -300,6 +300,17 @@ const webTechs = [
 
 // console.log(`rgb(${red} ${green} ${blue})` )
 
+// 4. Using the above countries array, create the following new array.
+// ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+
+let countriesToCaps = [];
+for(i = 0; i < countries.length; i++){
+  countriesToCaps.push(countries[i].toUpperCase())
+}
+console.log(countriesToCaps)
+
+
+
 
 
 
