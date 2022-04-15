@@ -303,12 +303,19 @@ const webTechs = [
 // 4. Using the above countries array, create the following new array.
 // ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
 
-let countriesToCaps = [];
-for(i = 0; i < countries.length; i++){
-  countriesToCaps.push(countries[i].toUpperCase())
-}
-console.log(countriesToCaps)
+// let countriesToCaps = [];
+// for(i = 0; i < countries.length; i++){
+//   countriesToCaps.push(countries[i].toUpperCase())
+// }
+// console.log(countriesToCaps)
 
+// 5. Using the above countries array, create an array for countries length'.
+// [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
+
+// const countriesLength = [];
+// for(k=0; k<countries.length; k++){
+//   countriesLength.push(countries[k].length)
+// }console.log(countriesLength);
 
 
 
