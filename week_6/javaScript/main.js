@@ -345,17 +345,33 @@ const webTechs = [
    the word 'land'. If there are countries containing 'land', print it as array. 
    If there is no country containing the word 'land', print 'All these countries are without land'. */
   
-  let newArr = [];
-  let wordWithLand;
+  // let newArr = [];
+  // let wordWithLand;
+
+  // for(i=0; i<countries.length; i++){
+  //   wordWithLand = countries.filter((e) => e.includes('land'))
+  //   if(wordWithLand){
+  //     newArr.push(countries[i])
+  //   }
+  //     else{console.log('All these countries are without land')}
+  //   }console.log(wordWithLand)
+
+    /* 8. In above countries array, check if there is a country or countries end with a substring 'ia'. 
+  If there are countries end with, print it as array. If there is no country containing the word 'ai', 
+  print 'These are countries ends without ia'. */
+
+  let newArr2 = [];
+  let wordWithIa;
 
   for(i=0; i<countries.length; i++){
-    wordWithLand = countries.filter((e) => e.includes('land'))
-    if(wordWithLand ){
-      newArr.push(countries[i])
+    wordWithIa = countries.filter((e) => e.endsWith('ia'))
+    if(wordWithIa ){
+      newArr2.push(countries[i])
     }
-      else{console.log('All these countries are without land')}
-    }console.log(wordWithLand)
-    
+      else{console.log('These are countries that end without -ia')}
+    }console.log(wordWithIa)
+
+  
   
 
 
