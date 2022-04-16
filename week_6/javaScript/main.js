@@ -336,10 +336,27 @@ const webTechs = [
   ]
   */
 
-  const detailedArray = [];
-  for(b=0; b<countries.length; b++){
-    detailedArray.push([countries[b], countries[b].toUpperCase().slice(0,3), countries[b].length])
-  }console.log(detailedArray.slice());
+  // const detailedArray = [];
+  // for(b=0; b<countries.length; b++){
+  //   detailedArray.push([countries[b], countries[b].toUpperCase().slice(0,3), countries[b].length])
+  // }console.log(detailedArray.slice());
+
+  /* 7. In above countries array, check if there is a country or countries containing
+   the word 'land'. If there are countries containing 'land', print it as array. 
+   If there is no country containing the word 'land', print 'All these countries are without land'. */
+  
+  let newArr = [];
+  let wordWithLand;
+
+  for(i=0; i<countries.length; i++){
+    wordWithLand = countries.filter((e) => e.includes('land'))
+    if(wordWithLand ){
+      newArr.push(countries[i])
+    }
+      else{console.log('All these countries are without land')}
+    }console.log(wordWithLand)
+    
+  
 
 
 
