@@ -345,32 +345,54 @@ const webTechs = [
    the word 'land'. If there are countries containing 'land', print it as array. 
    If there is no country containing the word 'land', print 'All these countries are without land'. */
   
-  // let newArr = [];
-  // let wordWithLand;
+  let countriesWithLand = countries.filter((e) => e.includes('land'));
 
-  // for(i=0; i<countries.length; i++){
-  //   wordWithLand = countries.filter((e) => e.includes('land'))
-  //   if(wordWithLand){
-  //     newArr.push(countries[i])
-  //   }
-  //     else{console.log('All these countries are without land')}
-  //   }console.log(wordWithLand)
+  if (countriesWithLand.length > 0){
+    console.log(countriesWithLand);
+  }
+  else {
+    console.log("No country found with 'land' in it");
+  }
 
     /* 8. In above countries array, check if there is a country or countries end with a substring 'ia'. 
   If there are countries end with, print it as array. If there is no country containing the word 'ai', 
   print 'These are countries ends without ia'. */
 
-  let newArr2 = [];
-  let wordWithIa;
+  // let newArr2 = [];
+  // let wordWithIa;
 
-  for(i=0; i<countries.length; i++){
-    wordWithIa = countries.filter((e) => e.endsWith('ia'))
-    if(wordWithIa ){
-      newArr2.push(countries[i])
-    }
-      else{console.log('These are countries that end without -ia')}
-    }console.log(wordWithIa)
+  // for(i=0; i<countries.length; i++){
+  //   wordWithIa = countries.filter((e) => e.endsWith('ia'))
+  //   if(wordWithIa ){
+  //     newArr2.push(countries[i])
+  //   }
+  //     else{console.log('These are countries that end without -ia')}
+  //   }console.log(wordWithIa)
 
+
+  // 9. Using the above countries array, find the country containing the biggest number of characters.
+  
+  // let longest = []
+  // for(let i=0; i<countries.length; i++){
+  //   longest.push(countries[i].length)
+  // }
+  // console.log(Math.max(...longest))
+
+
+//   let lengthArray = [];
+// let longest =[]
+//   for(let i=0; i<countries.length; i++){
+//     longest.push(countries[i].length)     
+//     }
+//     let long;
+// long = Math.max(...longest)
+
+// countries.map((e)=> {
+
+//     if(e.length===long){
+//         console.log(e)
+//     }
+// })
   
   
 
