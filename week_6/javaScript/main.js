@@ -13,7 +13,7 @@ const countries = [
   'Ireland',
   'Japan',
   'Kenya'
-] 
+];
 
 // Using for loop
 
@@ -345,29 +345,27 @@ const webTechs = [
    the word 'land'. If there are countries containing 'land', print it as array. 
    If there is no country containing the word 'land', print 'All these countries are without land'. */
   
-  let countriesWithLand = countries.filter((e) => e.includes('land'));
+  // let countriesWithLand = countries.filter((e) => e.includes('land'));
 
-  if (countriesWithLand.length > 0){
-    console.log(countriesWithLand);
-  }
-  else {
-    console.log("No country found with 'land' in it");
-  }
+  // if (countriesWithLand.length > 0){
+  //   console.log(countriesWithLand);
+  // }
+  // else {
+  //   console.log("No country found with 'land' in it");
+  // }
 
     /* 8. In above countries array, check if there is a country or countries end with a substring 'ia'. 
   If there are countries end with, print it as array. If there is no country containing the word 'ai', 
   print 'These are countries ends without ia'. */
 
-  // let newArr2 = [];
-  // let wordWithIa;
+  // let wordWithIa = countries.filter((e) => e.endsWith('ia'));
 
-  // for(i=0; i<countries.length; i++){
-  //   wordWithIa = countries.filter((e) => e.endsWith('ia'))
   //   if(wordWithIa ){
-  //     newArr2.push(countries[i])
+  //     wordWithIa;
   //   }
-  //     else{console.log('These are countries that end without -ia')}
-  //   }console.log(wordWithIa)
+  //     else{console.log('These are countries that end without -ia')
+  //   }
+  //   console.log(wordWithIa)
 
 
   // 9. Using the above countries array, find the country containing the biggest number of characters.
