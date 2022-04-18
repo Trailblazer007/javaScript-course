@@ -341,7 +341,7 @@ const webTechs = [
   //   detailedArray.push([countries[b], countries[b].toUpperCase().slice(0,3), countries[b].length])
   // }console.log(detailedArray.slice());
 
-  /* 7. In above countries array, check if there is a country or countries containing
+/* 7. In above countries array, check if there is a country or countries containing
    the word 'land'. If there are countries containing 'land', print it as array. 
    If there is no country containing the word 'land', print 'All these countries are without land'. */
   
@@ -354,7 +354,7 @@ const webTechs = [
   //   console.log("No country found with 'land' in it");
   // }
 
-    /* 8. In above countries array, check if there is a country or countries end with a substring 'ia'. 
+/* 8. In above countries array, check if there is a country or countries end with a substring 'ia'. 
   If there are countries end with, print it as array. If there is no country containing the word 'ai', 
   print 'These are countries ends without ia'. */
 
@@ -368,7 +368,7 @@ const webTechs = [
   //   console.log(wordWithIa)
 
 
-  // 9. Using the above countries array, find the country containing the biggest number of characters.
+// 9. Using the above countries array, find the country containing the biggest number of characters.
 
   // let lengthArray = [];
 
@@ -383,7 +383,7 @@ const webTechs = [
   //     }
   // })
 
-  // 10. Using the above countries array, find the country containing only 5 characters.
+// 10. Using the above countries array, find the country containing only 5 characters.
 
   // let fiveChar = countries.filter((e) => e.length === 5)
   // console.log(fiveChar)
@@ -391,7 +391,7 @@ const webTechs = [
   
   const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 
-  // 11. Find the longest word in the webTechs array
+// 11. Find the longest word in the webTechs array
 
   // let lengthArray = [];
 
@@ -407,6 +407,13 @@ const webTechs = [
   //   }
   // })
 
+// 12. Use the webTechs array to create the following array of arrays:
+// [["HTML", 4], ["CSS", 3],["JavaScript", 10],["React", 5],["Redux", 5],["Node", 4],["MongoDB", 7]]
+// let newArr = [];
+
+// for(let i=0; i<webTechs.length; i++){
+//   newArr.push([webTechs[i], webTechs[i].length]);
+// }console.log(newArr);
   
 
   
