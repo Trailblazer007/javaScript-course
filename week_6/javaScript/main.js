@@ -384,8 +384,32 @@ const webTechs = [
   // })
 
   // 10. Using the above countries array, find the country containing only 5 characters.
-  let fiveChar = countries.filter((e) => e.length === 5)
-  console.log(fiveChar)
+
+  // let fiveChar = countries.filter((e) => e.length === 5)
+  // console.log(fiveChar)
+
+  
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+
+  // 11. Find the longest word in the webTechs array
+
+  // let lengthArray = [];
+
+  // for(let i=0; i<webTechs.length; i++){
+  //   lengthArray.push(webTechs[i].length);
+  // };
+  
+  // let maxLength = Math.max(...lengthArray);
+
+  // webTechs.filter((e) => {
+  //   if(e.length === maxLength){
+  //     console.log(e)
+  //   }
+  // })
+
+  
+
+  
   
   
 
