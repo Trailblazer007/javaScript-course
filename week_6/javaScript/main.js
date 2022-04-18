@@ -388,8 +388,6 @@ const webTechs = [
   // let fiveChar = countries.filter((e) => e.length === 5)
   // console.log(fiveChar)
 
-  
-  const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 
 // 11. Find the longest word in the webTechs array
 
@@ -414,8 +412,14 @@ const webTechs = [
 // for(let i=0; i<webTechs.length; i++){
 //   newArr.push([webTechs[i], webTechs[i].length]);
 // }console.log(newArr);
-  
 
+const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+
+/* 13. An application created using MongoDB, Express, React and Node is called a MERN stack app. Create the 
+acronym MERN by using the array mernStack */
+// for(let i=0; i<mernStack.length; i++){
+//   console.log(mernStack[i][0]);
+// }
   
   
   
