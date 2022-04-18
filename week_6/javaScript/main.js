@@ -369,28 +369,19 @@ const webTechs = [
 
 
   // 9. Using the above countries array, find the country containing the biggest number of characters.
+
+  let lengthArray = [];
+
+    for(let i=0; i<countries.length; i++){
+      lengthArray.push(countries[i].length)     
+      }
+    let longestCountryLength = Math.max(...lengthArray);
   
-  // let longest = []
-  // for(let i=0; i<countries.length; i++){
-  //   longest.push(countries[i].length)
-  // }
-  // console.log(Math.max(...longest))
-
-
-//   let lengthArray = [];
-// let longest =[]
-//   for(let i=0; i<countries.length; i++){
-//     longest.push(countries[i].length)     
-//     }
-//     let long;
-// long = Math.max(...longest)
-
-// countries.map((e)=> {
-
-//     if(e.length===long){
-//         console.log(e)
-//     }
-// })
+    countries.map((e)=> {
+      if(e.length === longestCountryLength){
+          console.log(e)
+      }
+  })
   
   
 
