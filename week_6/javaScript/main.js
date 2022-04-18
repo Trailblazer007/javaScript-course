@@ -420,6 +420,13 @@ acronym MERN by using the array mernStack */
 // for(let i=0; i<mernStack.length; i++){
 //   console.log(mernStack[i][0]);
 // }
+
+/* 14. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a 
+for loop or for of loop and print out the items. */
+
+// for(let i=0; i<webTechs.length; i++){
+//   console.log(webTechs[i]);
+// }
   
   
   
