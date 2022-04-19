@@ -436,6 +436,21 @@ reverse the order using loop without using a reverse method. */
 // for(let i=fruits.length; i>=0; i--){
 //     console.log(fruits[i]);
 //   }
+
+// 16. Print all the elements of array as shown below.
+
+
+  const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ] 
+
+for(let i=0; i<fullStack.length; i++){
+  console.log(fullStack[i].join('\n'))
+}
+
+
+
   
   
   
