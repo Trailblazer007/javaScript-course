@@ -445,9 +445,15 @@ reverse the order using loop without using a reverse method. */
     ['Node', 'Express', 'MongoDB']
   ] 
 
-for(let i=0; i<fullStack.length; i++){
-  console.log(fullStack[i].join('\n'))
-}
+// for(let i=0; i<fullStack.length; i++){
+//   console.log(fullStack[i].join('\n'))
+// }
+
+// using the map method
+
+fullStack.map((e)=> {
+  e.map((e)=>console.log(e))
+})
 
 
 
