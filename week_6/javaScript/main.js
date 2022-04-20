@@ -517,6 +517,10 @@ Sort the copied array and store in a variable sortedCountries */
 // });
 
 // 6. Extract all the countries contain the word 'land' from the countries array and print it as array
+// let landedArr = countries.filter((e)=> e.includes('land'));
+
+// console.log(landedArr);
+
 // 7. Extract all the countries containing only four characters from the countries array and print it as array
 // 8. Extract all the countries containing two or more words from the countries array and print it as array
 // 9. Reverse the countries array and capitalize each country and stored it as an array
