@@ -477,7 +477,9 @@ reverse the order using loop without using a reverse method. */
 // countries.filter((e) => newCountries.push(e));
 // console.log(newCountries)
 
-
+// 4. USING CONCAT
+// let newCountries = countries.concat();
+// console.log(newCountries);
 
 
 
