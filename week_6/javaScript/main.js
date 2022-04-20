@@ -522,6 +522,9 @@ Sort the copied array and store in a variable sortedCountries */
 // console.log(landedArr);
 
 // 7. Extract all the countries containing only four characters from the countries array and print it as array
+// countries.filter((e)=> {if (e.length == 4)
+// console.log(e)})
+
 // 8. Extract all the countries containing two or more words from the countries array and print it as array
 // 9. Reverse the countries array and capitalize each country and stored it as an array
 
