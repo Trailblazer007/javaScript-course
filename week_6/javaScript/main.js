@@ -503,6 +503,19 @@ Sort the copied array and store in a variable sortedCountries */
 
 
 // 5. Find the country containing the hightest number of characters in the countries array
+
+// let lengthArray = [];
+
+// for(i=0; i<countries.length; i++){
+//   lengthArray.push(countries[i].length)
+// };
+
+// let maximus = Math.max(...lengthArray);
+
+// countries.filter((e) => {
+//   if(e.length === maximus)console.log(e)
+// });
+
 // 6. Extract all the countries contain the word 'land' from the countries array and print it as array
 // 7. Extract all the countries containing only four characters from the countries array and print it as array
 // 8. Extract all the countries containing two or more words from the countries array and print it as array
