@@ -492,7 +492,8 @@ Sort the copied array and store in a variable sortedCountries */
 
 
 // 3. Sort the webTechs array and mernStack array
-
+// console.log(webTechs.sort());
+// console.log(mernStack.sort());
 
 // 4. Extract all the countries contain the word 'land' from the countries array and print it as array
 
