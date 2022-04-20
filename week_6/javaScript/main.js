@@ -483,9 +483,12 @@ reverse the order using loop without using a reverse method. */
 
 
 
-
 /* 2. Arrays are mutable. Create a copy of array which does not modify the original. 
 Sort the copied array and store in a variable sortedCountries */
+
+// let sortedCountries = [];
+// countries.map((e) => sortedCountries.sort().push(e))
+// console.log(sortedCountries);
 
 
 // 3. Sort the webTechs array and mernStack array
