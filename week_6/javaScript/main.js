@@ -533,6 +533,12 @@ Sort the copied array and store in a variable sortedCountries */
 // }
 
 // 9. Reverse the countries array and capitalize each country and stored it as an array
+// let arr5 = [];
+
+// for(let i=0; i<countries.length; i++){
+//   arr5.push(countries[i].toUpperCase());
+// }
+// console.log(arr5);
 
 
 
