@@ -496,6 +496,10 @@ Sort the copied array and store in a variable sortedCountries */
 // console.log(mernStack.sort());
 
 // 4. Extract all the countries contain the word 'land' from the countries array and print it as array
+// let filtered = countries.filter((e)=> 
+//   e.includes('land')
+// );
+// console.log(filtered)
 
 
 // 5. Find the country containing the hightest number of characters in the countries array
