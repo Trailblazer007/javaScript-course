@@ -526,6 +526,12 @@ Sort the copied array and store in a variable sortedCountries */
 // console.log(e)})
 
 // 8. Extract all the countries containing two or more words from the countries array and print it as array
+// for(let i=0; i<countries.length; i++){
+//   if(countries[i].length >= 2){
+//     console.log(countries[i])
+//   }
+// }
+
 // 9. Reverse the countries array and capitalize each country and stored it as an array
 
 
