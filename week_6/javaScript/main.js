@@ -451,9 +451,54 @@ reverse the order using loop without using a reverse method. */
 
 // using the map method
 
-fullStack.map((e)=> {
-  e.map((e)=>console.log(e))
-})
+// fullStack.map((e)=> {
+//   e.map((e)=>console.log(e))
+// })
+
+
+
+// Exercise Level 3
+
+// 1. Copy countries array(Avoid mutation)
+// USING MAP
+
+// let newCountries = [];
+// countries.map((e) => newCountries.push(e));
+// console.log(newCountries)
+
+// 2. USING SLICE
+
+// let newCountries = countries.slice()
+// console.log(newCountries)
+
+// 3. USING FILTER
+
+// let newCountries = [];
+// countries.filter((e) => newCountries.push(e));
+// console.log(newCountries)
+
+// USING CONCAT
+let newCountries = countries.concat();
+console.log(newCountries);
+
+
+
+
+/* 2. Arrays are mutable. Create a copy of array which does not modify the original. 
+Sort the copied array and store in a variable sortedCountries */
+
+
+// 3. Sort the webTechs array and mernStack array
+
+
+// 4. Extract all the countries contain the word 'land' from the countries array and print it as array
+
+
+// 5. Find the country containing the hightest number of characters in the countries array
+// 6. Extract all the countries contain the word 'land' from the countries array and print it as array
+// 7. Extract all the countries containing only four characters from the countries array and print it as array
+// 8. Extract all the countries containing two or more words from the countries array and print it as array
+// 9. Reverse the countries array and capitalize each country and stored it as an array
 
 
 
