@@ -471,6 +471,12 @@ reverse the order using loop without using a reverse method. */
 // let newCountries = countries.slice()
 // console.log(newCountries)
 
+// 3. USING FILTER
+
+// let newCountries = [];
+// countries.filter((e) => newCountries.push(e));
+// console.log(newCountries)
+
 
 
 
