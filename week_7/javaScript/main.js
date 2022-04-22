@@ -1,13 +1,20 @@
 // Exercises: Level 1
 
 // 1. Declare a function fullName and it print out your full name.
-// function fullName() {
-//     console.log("Fatoye Oluwaseun")
-// };
-// console.log(fullName());
+
+    // function fullName() {
+    //     console.log("Fatoye Oluwaseun")
+    // };
+    // console.log(fullName());
 
 
 // 2. Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
+
+    // function fullName(firstName, lastName) {
+    //     let wholeName = `${firstName} ${lastName}`;
+    //     return wholeName;
+    // };
+    // console.log(fullName("Fatoye", "Oluwaseun"));
 
 // 3. Declare a function addNumbers and it takes two two parameters and it returns sum.
 
