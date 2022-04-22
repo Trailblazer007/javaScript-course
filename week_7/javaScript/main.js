@@ -1,6 +1,11 @@
 // Exercises: Level 1
 
 // 1. Declare a function fullName and it print out your full name.
+// function fullName() {
+//     console.log("Fatoye Oluwaseun")
+// };
+// console.log(fullName());
+
 
 // 2. Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
 
@@ -67,7 +72,7 @@ of a quadratic equation, solveQuadEquation. */
 // 3. Declare a function name printArray. It takes array as a parameter and it prints out each value of the array.
 
 // 4. Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
-    showDateTime()
+    // showDateTime()
     // 08/01/2020 04:08
 
 // 5. Declare a function name swapValues. This function swaps value of x to y.
