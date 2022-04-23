@@ -18,15 +18,21 @@
 
 // 3. Declare a function addNumbers and it takes two two parameters and it returns sum.
 
-    function addNumbers(param1, param2){
-        let sum = 0;
-        sum = Number(param1 + param2);
-        return sum;
-    }
-    console.log(addNumbers(5,6));
+    // function addNumbers(param1, param2){
+    //     let sum = 0;
+    //     sum = Number(param1 + param2);
+    //     return sum;
+    // }
+    // console.log(addNumbers(5,6));
 
 /* 4. An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates 
 areaOfRectangle. */
+
+// function areaOfRectangle(length, width){
+//     let area = length * width;
+//     return area;
+// }
+// console.log(areaOfRectangle(4,5));
 
 /* 5. A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which 
 calculates perimeterOfRectangle. */
