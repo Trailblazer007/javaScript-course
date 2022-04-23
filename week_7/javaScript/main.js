@@ -64,6 +64,13 @@ calculates volumeOfRectPrism. */
 /* 8. Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates 
 circumOfCircle */
 
+// function circumOfCircle(r){
+//     let circumference = 2 * Math.PI * r;
+//     return circumference;
+// }
+// console.log(circumOfCircle(7));
+
+
 // 9. Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
 
 /* 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time 
