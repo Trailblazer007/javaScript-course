@@ -28,50 +28,52 @@
 /* 4. An area of a rectangle is calculated as follows: area = length x width. Write a function which calculates 
 areaOfRectangle. */
 
-// function areaOfRectangle(length, width){
-//     let area = length * width;
-//     return area;
-// }
-// console.log(areaOfRectangle(4,5));
+    // function areaOfRectangle(length, width){
+    //     let area = length * width;
+    //     return area;
+    // }
+    // console.log(areaOfRectangle(4,5));
 
 /* 5. A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function which 
 calculates perimeterOfRectangle. */
 
-// const perimeterOfRectangle = (length, width) => {
-//     let perimeter = 2 * (length + width);
-//     return perimeter;
-// } 
-// console.log(perimeterOfRectangle(3,9));
+    // const perimeterOfRectangle = (length, width) => {
+    //     let perimeter = 2 * (length + width);
+    //     return perimeter;
+    // } 
+    // console.log(perimeterOfRectangle(3,9));
 
 /* 6. A volume of a rectangular prism is calculated as follows: volume = length x width x height. Write a function which 
 calculates volumeOfRectPrism. */ 
 
-// const volumeOfRectPrism = (length, width, height) => {
-//     let volume =  (length * width *height);
-//     return volume;
-// } 
-// console.log(volumeOfRectPrism(3, 9, 2));
+    // const volumeOfRectPrism = (length, width, height) => {
+    //     let volume =  (length * width *height);
+    //     return volume;
+    // } 
+    // console.log(volumeOfRectPrism(3, 9, 2));
 
 
 // 7. Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
 
-// function areaOfCircle(r){
-//     let area = Math.PI * r**2;
-//     return area;
-// }
-// console.log(areaOfCircle(7));
+    // function areaOfCircle(r){
+    //     let area = Math.PI * r**2;
+    //     return area;
+    // }
+    // console.log(areaOfCircle(7));
 
 /* 8. Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates 
 circumOfCircle */
 
-// function circumOfCircle(r){
-//     let circumference = 2 * Math.PI * r;
-//     return circumference;
-// }
-// console.log(circumOfCircle(7));
+    // function circumOfCircle(r){
+    //     let circumference = 2 * Math.PI * r;
+    //     return circumference;
+    // }
+    // console.log(circumOfCircle(7));
 
 
 // 9. Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+
+    
 
 /* 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time 
 taken. Write a function which calculates a speed of a moving object, speed. */
