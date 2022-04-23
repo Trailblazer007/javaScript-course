@@ -82,6 +82,12 @@ circumOfCircle */
 /* 10. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time 
 taken. Write a function which calculates a speed of a moving object, speed. */
 
+    // function speedCalc(distance, time){
+    //     let speed = distance / time;
+    //     return speed + " m/s"
+    // }
+    // console.log(speedCalc(45, 23));
+
 // 11. Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
 
 /* 12. Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which converts 
