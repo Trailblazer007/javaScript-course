@@ -114,6 +114,24 @@ Check if a person is underweight, normal, overweight or obese based the informat
     // iv. Overweight: BMI is 25 to 29.9
     // v. Obese: BMI is 30 or more
 
+    // function bmiCalc(weight, height){
+    //     let bmi = weight / (height ** 2);
+
+    //     if(bmi < 18.5){
+    //         console.log("Underweight")
+    //     }else if(bmi >= 18.5 || bmi <= 24.9){
+    //         console.log("Normal weight")
+    //     }else if(bmi >= 25 || bmi <= 29.9){
+    //         console.log("Overweight")
+    //     }else if(bmi >= 30){
+    //         console.log("Obese")
+    //     }else{console.log("Please enter valid inputs")};
+
+    //     return bmi;
+    // }
+    // console.log(bmiCalc(90, 2));
+
+
 /* 14. Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, 
 Spring or Summer. */
 
