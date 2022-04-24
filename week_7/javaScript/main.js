@@ -90,8 +90,20 @@ taken. Write a function which calculates a speed of a moving object, speed. */
 
 // 11. Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
 
+    // function weightCalc(mass, gravity){
+    //     let weight = mass * gravity;
+    //     return weight;
+    // }
+    // console.log(weightCalc(6, 9.8));
+
 /* 12. Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which converts 
 oC to oF convertCelsiusToFahrenheit. */
+
+    // function convertCelsiusToFahrenheit(celsius){
+    //     let farTemp = (celsius * (9/5)) + 32;
+    //     return farTemp;
+    // }
+    // console.log(convertCelsiusToFahrenheit(37.4));
 
 /* 13. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function 
 which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.
