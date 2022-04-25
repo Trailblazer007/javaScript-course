@@ -135,6 +135,26 @@ Check if a person is underweight, normal, overweight or obese based the informat
 /* 14. Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, 
 Spring or Summer. */
 
+    // function checkSeason(month){
+    //     if(month == "december" || month == "january" || month == "february"){
+    //         return 'Autumn';
+    //     }
+    //     else if(month == "march" || month == "april" || month == "may"){
+    //         return 'Spring';
+    //     }
+    //     else if(month == "june" || month == "july" || month == "august"){
+    //         return 'Summer';
+    //     }
+    //     else if(month == "september" || month == "october" || month == "november"){
+    //         return 'Autumn';
+    //     }
+    //     else{
+    //         return 'oops! Something went horribly wrong'
+    //     }
+    // }
+    // console.log(checkSeason("may"));
+
+
 /* 15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their 
 maximum with out using Math.max method. */
     // console.log(findMax(0, 10, 5))
