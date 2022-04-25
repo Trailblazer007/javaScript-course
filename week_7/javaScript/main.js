@@ -157,6 +157,24 @@ Spring or Summer. */
 
 /* 15. Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their 
 maximum with out using Math.max method. */
+
+    // function findMax(one, two, three){
+    //     let result;
+    //     if(one > two && one > three){
+    //         return one;
+    //     }
+    //     else if(two > one && two > three){
+    //         return two;
+    //     }
+    //     else if(three > one && three > two){
+    //         return three;
+    //     }
+    //     else{
+    //         return "Oops! something went horribly wrong.";
+    //     }
+        
+    // }
+
     // console.log(findMax(0, 10, 5))
     // 10
     // console.log(findMax(0, -10, -2))
