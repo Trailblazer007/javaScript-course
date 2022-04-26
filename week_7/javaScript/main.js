@@ -185,13 +185,28 @@ maximum with out using Math.max method. */
 
 /* 1. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear 
 equation, solveLinEquation. */
+    // y = 8x + 9
+
+    const solveLinEquation = (a,b,z) => {
+        let m = a/b;
+
+
+        let y = -z/b;
+
+        console.log(m, y);
+    }
+    
+    solveLinEquation(8, 1, -9);
     
 /* 2. Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values 
 of a quadratic equation, solveQuadEquation. */
+
+    
+
     // console.log(solveQuadratic()) // {0}
     // console.log(solveQuadratic(1, 4, 4)) // {-2}
     // console.log(solveQuadratic(1, -1, -2)) // {2, -1}
-    // console.log(solveQuadratic(1, 7, 12)) // {-3, -4}
+    // solveQuadratic(1, 7, 12) // {-3, -4}
     // console.log(solveQuadratic(1, 0, -4)) //{2, -2}
     // console.log(solveQuadratic(1, -1, 0)) //{1, 0}
 
