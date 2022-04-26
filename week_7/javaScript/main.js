@@ -234,23 +234,27 @@ of a quadratic equation, solveQuadEquation. */
 
 // 4. Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
 
-    function showDateTime(){
-        const now = new Date();
+    // function showDateTime(){
+    //     const now = new Date();
 
-        const date = now.getDate();
-        const month = now.getMonth() + 1;
-        const year = now.getFullYear();
-        const hour = now.getHours();
-        const minutes = now.getMinutes();
+    //     const date = now.getDate();
+    //     const month = now.getMonth() + 1;
+    //     const year = now.getFullYear();
+    //     const hour = now.getHours();
+    //     const minutes = now.getMinutes();
 
-        console.log(`${date}/${month}/${year} ${hour}:${minutes}`);
-    }
-    showDateTime()
+    //     console.log(`${date}/${month}/${year} ${hour}:${minutes}`);
+    // }
+    // showDateTime()
 
     // showDateTime()
     // 08/01/2020 04:08
 
 // 5. Declare a function name swapValues. This function swaps value of x to y.
+
+    // function swapValues(x,y){
+    //     console.log(y,x);
+    // }
 
     // swapValues(3, 4) // x => 4, y=>3
     // swapValues(4, 5) // x = 5, y = 4
