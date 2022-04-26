@@ -224,6 +224,14 @@ of a quadratic equation, solveQuadEquation. */
 
 // 3. Declare a function name printArray. It takes array as a parameter and it prints out each value of the array.
 
+    // const printArray = (arr) => {
+    //    for(const element of arr){
+    //        console.log(element);
+    //    }
+
+    // }
+    // printArray([2,4,5]);
+
 // 4. Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
     // showDateTime()
     // 08/01/2020 04:08
