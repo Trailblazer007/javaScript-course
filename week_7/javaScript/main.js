@@ -233,6 +233,20 @@ of a quadratic equation, solveQuadEquation. */
     // printArray([2,4,5]);
 
 // 4. Write a function name showDateTime which shows time in this format: 08/01/2020 04:08 using the Date object.
+
+    function showDateTime(){
+        const now = new Date();
+
+        const date = now.getDate();
+        const month = now.getMonth() + 1;
+        const year = now.getFullYear();
+        const hour = now.getHours();
+        const minutes = now.getMinutes();
+
+        console.log(`${date}/${month}/${year} ${hour}:${minutes}`);
+    }
+    showDateTime()
+
     // showDateTime()
     // 08/01/2020 04:08
 
