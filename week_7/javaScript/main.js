@@ -259,7 +259,14 @@ of a quadratic equation, solveQuadEquation. */
     // swapValues(3, 4) // x => 4, y=>3
     // swapValues(4, 5) // x = 5, y = 4
 
-// 6. Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (don't use method).
+/* 6. Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array 
+(don't use method). */
+
+    // function reverseArray(arr){
+    //     for(i=arr.length; i>=0; i--){
+    //     console.log(arr[i]);
+    //     }
+    // }
 
     // console.log(reverseArray([1, 2, 3, 4, 5]))
     // //[5, 4, 3, 2, 1]
