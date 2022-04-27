@@ -285,6 +285,13 @@ of a quadratic equation, solveQuadEquation. */
 
 // 8. Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 
+        // function addItem(item){
+        //     let arr = [];
+        //     arr.push(item);
+        //     console.log(arr);
+        // }
+        // addItem('sickler');
+
 // 9. Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 
 // 10. Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
