@@ -337,7 +337,31 @@ of a quadratic equation, solveQuadEquation. */
     // console.log(sumOfOdds(5))
 
 
-// 13. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+/* 13. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens 
+and odds in the number. */
+
+    // function evensAndOdds(k){
+    //     let countEven;
+    //     let countOdd;
+
+    //     const oddArr = [];
+    //     const evenArr = [];
+    //     for(let i=1; i<=k; i++){
+    //         if(i % 2 !== 0){
+    //             oddArr.push(i);
+    //         }
+    //         else if(i % 2 == 0){
+    //             evenArr.push(i);
+    //         }
+    //         countOdd = oddArr.length;
+    //         countEven = evenArr.length;
+            
+    //     }
+    //     console.log(`The number of odds are ${countOdd}.`);
+    //     console.log(`The number of evens are ${countEven}.`);
+        
+    // }
+    // evensAndOdds(9);
 
     // evensAndOdds(100);
     // The number of odds are 50.
