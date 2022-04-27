@@ -325,6 +325,18 @@ of a quadratic equation, solveQuadEquation. */
 
 // 12. Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
 
+    // function sumOfOdds(w){
+    //     let sum = 0;
+    //     for(let i = 0; i<= w; i++){
+    //         if(i % 2 == 0){
+    //             sum += i;
+    //         } 
+    //     } return sum
+            
+    // }
+    // console.log(sumOfOdds(5))
+
+
 // 13. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
     // evensAndOdds(100);
