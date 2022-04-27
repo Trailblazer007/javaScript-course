@@ -185,18 +185,18 @@ maximum with out using Math.max method. */
 
 /* 1. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear 
 equation, solveLinEquation. */
-    // // y = 8x + 9
+    // // y = 8x + 9. 
 
-    const solveLinEquation = (a,b,c) => {
-        let m = a/b;            // 'm' is the slope
+    // const solveLinEquation = (a,b,c) => {   // a, b and c are just coefficients 
+    //     let m = a/b;            // 'm' is the slope
 
 
-        let c1 = -c/b;           // 'c1' is the intercept
+    //     let c1 = -c/b;           // 'c1' is the intercept
 
-        console.log(m, c1);
-    }
+    //     console.log(m, c1);
+    // }
     
-    solveLinEquation(8, 1, -9);
+    // solveLinEquation(8, 1, -9);
     
 /* 2. Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values 
 of a quadratic equation, solveQuadEquation. */
@@ -301,6 +301,14 @@ of a quadratic equation, solveQuadEquation. */
     // console.log(removeItem([2,3,5,9,7,6], 3));
 
 // 10. Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
+
+    // function sumOfNumbers(m){
+    //     let sum = 0;
+    //     for(let i = 0; i<= m; i++)
+    //         sum += i;
+    //         return sum;
+    // }
+    //     console.log(sumOfNumbers(5));
 
 // 11. Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
 
