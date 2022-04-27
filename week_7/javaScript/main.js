@@ -275,6 +275,14 @@ of a quadratic equation, solveQuadEquation. */
 
 // 7. Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 
+    // function capitalizeArray(arr){
+    //     for(let i=0; i<arr.length; i++){
+    //         console.log(arr[i].toUpperCase());
+    //     }
+       
+    // }
+    // capitalizeArray(['man', 'sex', 'woman'])
+
 // 8. Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 
 // 9. Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
