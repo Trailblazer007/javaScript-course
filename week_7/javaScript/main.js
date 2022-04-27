@@ -294,6 +294,12 @@ of a quadratic equation, solveQuadEquation. */
 
 // 9. Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 
+    // function removeItem(arr, n){
+    //     arr.splice(n,1)
+    //     console.log(arr);
+    // }
+    // console.log(removeItem([2,3,5,9,7,6], 3));
+
 // 10. Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
 
 // 11. Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
