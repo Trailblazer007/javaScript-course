@@ -187,16 +187,16 @@ maximum with out using Math.max method. */
 equation, solveLinEquation. */
     // // y = 8x + 9
 
-    // const solveLinEquation = (a,b,z) => {
-    //     let m = a/b;
+    const solveLinEquation = (a,b,c) => {
+        let m = a/b;            // 'm' is the slope
 
 
-    //     let y = -z/b;
+        let c1 = -c/b;           // 'c1' is the intercept
 
-    //     console.log(m, y);
-    // }
+        console.log(m, c1);
+    }
     
-    // solveLinEquation(8, 1, -9);
+    solveLinEquation(8, 1, -9);
     
 /* 2. Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values 
 of a quadratic equation, solveQuadEquation. */
