@@ -369,10 +369,21 @@ and odds in the number. */
 
 // 14. Write a function which takes any number of arguments and return the sum of the arguments
 
-    // sum(1, 2, 3) // -> 6
+    // function sum(){
+    //     let summ = 0;
+    //     for(let i = 0; i < arguments.length; i++){
+    //         summ += arguments[i];
+    //     }
+        
+    //     return summ;
+    // }
+
+    // console.log(sum(1, 2, 3)) // -> 6
     // sum(1, 2, 3, 4) // -> 10
 
 // 15. Write a function which generates a randomUserIp.
+
+
 
 // 16. Write a function which generates a randomMacAddress
 
