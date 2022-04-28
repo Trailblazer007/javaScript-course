@@ -388,11 +388,13 @@ and odds in the number. */
     //     let b = Math.floor(Math.random() * 256);
     //     let c = Math.floor(Math.random() * 256);
     //     let d = Math.floor(Math.random() * 256);
-    //     return `${a}:${b}:${c}:${d}`;
+    //     return `${a}.${b}.${c}.${d}`;
     // }
     // console.log(randomUserIp())
 
 // 16. Write a function which generates a randomMacAddress
+
+    
 
 // 17. Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
