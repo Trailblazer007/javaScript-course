@@ -402,7 +402,6 @@ and odds in the number. */
         let e = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
         let f = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
         
-
         return `${a}:${b}:${c}:${d}:${e}:${f}`;
     }
     console.log(randomMacAddress())
