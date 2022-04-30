@@ -404,7 +404,7 @@ and odds in the number. */
         
         return `${a}:${b}:${c}:${d}:${e}:${f}`;
     }
-    console.log(randomMacAddress())
+    console.log(randomMacAddress());
 
 // 17. Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
