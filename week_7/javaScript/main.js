@@ -394,19 +394,26 @@ and odds in the number. */
 
 // 16. Write a function which generates a randomMacAddress
 
-    function randomMacAddress(){
-        let a = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-        let b = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-        let c = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-        let d = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-        let e = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-        let f = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    // function randomMacAddress(){
+    //     let a = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    //     let b = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    //     let c = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    //     let d = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    //     let e = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    //     let f = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
         
-        return `${a}:${b}:${c}:${d}:${e}:${f}`;
-    }
-    console.log(randomMacAddress());
+    //     return `${a}:${b}:${c}:${d}:${e}:${f}`;
+    // }
+    // console.log(randomMacAddress());
 
-// 17. Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
+/* 17. Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal 
+number. The function return the hexadecimal number. */
+
+    // function randomHexaNumberGenerator(){
+    //     let randerTwo = Math.ceil(Math.random() + 3);
+    //     let rander = Math.ceil((Math.random() * Math.pow(14, randerTwo))).toString('16');
+    //     return rander;
+    // }
 
     // console.log(randomHexaNumberGenerator());
     // '#ee33df'
