@@ -418,7 +418,13 @@ number. The function return the hexadecimal number. */
     // console.log(randomHexaNumberGenerator());
     // '#ee33df'
 
-// 18. Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
+/* 18. Declare a function name userIdGenerator. When this function is called it generates seven character id. The 
+function return the id. */
+
+    // function userIdGenerator(){
+    //     let newId = Math.floor(Math.random() * Math.pow(12, 7)).toString('16').padEnd(7, '5');
+    //     return newId;
+    // }
 
     // console.log(userIdGenerator());
     // 41XTDbE
