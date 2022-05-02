@@ -394,13 +394,17 @@ and odds in the number. */
 
 // 16. Write a function which generates a randomMacAddress
 
+    // function randomHexGenerator(numChar) {
+    //     return Math.floor(Math.random() * Math.pow(16, numChar)).toString('16').padStart(numChar,'0');
+    // };
+
     // function randomMacAddress(){
-    //     let a = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-    //     let b = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-    //     let c = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-    //     let d = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-    //     let e = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
-    //     let f = Math.floor(Math.random() * Math.pow(16, 2)).toString('16').padStart(2,'0');
+    //     let a = randomHexGenerator(2);
+    //     let b = randomHexGenerator(2);
+    //     let c = randomHexGenerator(2);
+    //     let d = randomHexGenerator(2);
+    //     let e = randomHexGenerator(2);
+    //     let f = randomHexGenerator(2);
         
     //     return `${a}:${b}:${c}:${d}:${e}:${f}`;
     // }
@@ -435,13 +439,19 @@ function return the id. */
  but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number 
  of ids which are supposed to be generated. */
 
-    // userIdGeneratedByUser()
+    // const userIdGeneratedByUser = () =>{
+    //     let noOfChar = prompt('Do enter the desired number of characters');
+    //     let noOfId = prompt('Do enter the desired number of IDs to be generated');
+
+    //     let allowed = '0123456789abcdefghi';
+    // }
     // 'kcsy2
     // SMFYb
     // bWmeq
     // ZXOYh
     // 2Rgxf
     // '
+
     // userIdGeneratedByUser()
     // '1GCSgPLMaBAVQZ26
     // YD7eFwNQKNs7qXaT
