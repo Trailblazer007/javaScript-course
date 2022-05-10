@@ -448,7 +448,7 @@ function return the id. */
     //        return Math.floor(Math.random() * Math.pow(19, x)).toString('32').padStart(x, '#');
     //     };
         
-    //     for(i=1; i<=noOfId; i++){console.log(randomIdGenerator(noOfChar))};
+    //     for(i=1; i<=noOfId; i++){console.log(randomIdGenerator(noOfChar))};  // returns the generated id for 'noOfId' times
 
     
     // }
