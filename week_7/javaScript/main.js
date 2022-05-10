@@ -444,7 +444,7 @@ function return the id. */
     //     let noOfChar = parseInt(prompt('Enter number of characters'));
     //     let noOfId = parseInt(prompt('How many IDs do you want?'));
 
-    //     function randomIdGenerator(x) {
+    //     function randomIdGenerator(x) { //       - this function returns a random number with 'x' characters
     //        return Math.floor(Math.random() * Math.pow(19, x)).toString('32').padStart(x, '#');
     //     };
         
