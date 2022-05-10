@@ -440,11 +440,21 @@ function return the id. */
  of ids which are supposed to be generated. */
 
     // const userIdGeneratedByUser = () =>{
-    //     let noOfChar = prompt('Do enter the desired number of characters');
-    //     let noOfId = prompt('Do enter the desired number of IDs to be generated');
 
-    //     let allowed = '0123456789abcdefghi';
+    //     let noOfChar = parseInt(prompt('Enter number of characters'));
+    //     let noOfId = parseInt(prompt('How many IDs do you want?'));
+
+    //     function randomIdGenerator(x) {
+    //        return Math.floor(Math.random() * Math.pow(19, x)).toString('32').padStart(x, '#');
+    //     };
+        
+    //     for(i=1; i<=noOfId; i++){console.log(randomIdGenerator(noOfChar))};
+
+    
     // }
+    // userIdGeneratedByUser();
+
+
     // 'kcsy2
     // SMFYb
     // bWmeq
