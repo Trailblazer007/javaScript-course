@@ -475,6 +475,17 @@ function return the id. */
     // rgbColorGenerator()
     // rgb(125,244,255)
 
+    // const rgbColorGenerator = () => {
+    //     let a = Math.floor(Math.random() * 256);
+    //     let b = Math.floor(Math.random() * 256);
+    //     let c = Math.floor(Math.random() * 256);
+        
+    //     console.log(`rgb(${a}, ${b}, ${c})`);
+    // }
+    // rgbColorGenerator();
+    
+
+
 // 3. Write a function arrayOfHexaColors which return any number of hexadecimal colors in an array.
 
 // 4. Write a function arrayOfRgbColors which return any number of RGB colors in an array.
