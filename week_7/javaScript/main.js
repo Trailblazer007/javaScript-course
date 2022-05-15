@@ -488,6 +488,22 @@ function return the id. */
 
 // 3. Write a function arrayOfHexaColors which return any number of hexadecimal colors in an array.
 
+// let arrayOfHexaColors = () => {
+//     let allHexCodes = '123456789abcdef';
+//     let loopCount = parseInt(Math.random() * 50);
+//     let hexColorArr = [];
+    
+//     for(let x=1; x<=loopCount; x++) {
+//        let hexChars = [];
+//        for (let i = 0; i < 6; i++) {
+//           hexChars.push(allHexCodes[parseInt(Math.random() * allHexCodes.length) - 1]);
+//        }
+//        hexColorArr.push('#' + hexChars.join(''));
+//     }
+//     return hexColorArr;
+//   } 
+//   console.log(arrayOfHexaColors());
+
 // 4. Write a function arrayOfRgbColors which return any number of RGB colors in an array.
 
 // 5. Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
