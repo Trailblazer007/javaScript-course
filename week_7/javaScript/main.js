@@ -506,25 +506,25 @@ function return the id. */
 
 // 4. Write a function arrayOfRgbColors which return any number of RGB colors in an array.
 
-function arrayOfRgbcolors() {
-    let rgbArray = [];
+// function arrayOfRgbcolors() {
+//     let rgbArray = [];
   
-    let randomTimeAppearance = Math.ceil(Math.random() * 65);
+//     let randomTimeAppearance = Math.ceil(Math.random() * 65);
    
-    let blue, red, green;
+//     let blue, red, green;
   
-    for (let i = 1; i <= randomTimeAppearance; i++) {
-      red = Math.floor(Math.random() * 256 + i);
-      green = Math.floor(Math.random() * 256 + i);
-      blue = Math.floor(Math.random() * 256 + i);
+//     for (let i = 1; i <= randomTimeAppearance; i++) {
+//       red = Math.floor(Math.random() * 256);
+//       green = Math.floor(Math.random() * 256);
+//       blue = Math.floor(Math.random() * 256);
 
-      let rgbContainer = (`rgb(${red}, ${green}, ${blue}) `);
-      rgbArray.push(rgbContainer);
-    }
-    return rgbArray;
-  }
+//       let rgbContainer = (`rgb(${red}, ${green}, ${blue}) `);
+//       rgbArray.push(rgbContainer);
+//     }
+//     return rgbArray;
+//   }
   
-  console.log(arrayOfRgbcolors());
+//   console.log(arrayOfRgbcolors());
 
     
 
