@@ -506,9 +506,27 @@ function return the id. */
 
 // 4. Write a function arrayOfRgbColors which return any number of RGB colors in an array.
 
-    function arrayOfRgbColors() {
+function arrayOfRgbcolors() {
+    let rgbArray = [];
+  
+    let randomTimeAppearance = Math.ceil(Math.random() * 65);
+   
+    let blue, red, green;
+  
+    for (let i = 1; i <= randomTimeAppearance; i++) {
+      red = Math.floor(Math.random() * 256 + i);
+      green = Math.floor(Math.random() * 256 + i);
+      blue = Math.floor(Math.random() * 256 + i);
 
+      let rgbContainer = (`rgb(${red}, ${green}, ${blue}) `);
+      rgbArray.push(rgbContainer);
     }
+    return rgbArray;
+  }
+  
+  console.log(arrayOfRgbcolors());
+
+    
 
 // 5. Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
 
