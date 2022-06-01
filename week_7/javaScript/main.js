@@ -530,6 +530,16 @@ function return the id. */
 
 // 5. Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
 
+    const convertHexaToRgb = (hex) => {
+        const r = parseInt(hex.slice(1, 3), 16)
+        const g = parseInt(hex.slice(3, 5), 16)
+        const b = parseInt(hex.slice(5, 7), 16)
+        // return {r, g, b} // return an object
+        return `rgb(${r}, ${g}, ${b})`
+    }
+    console.log(convertHexaToRgb("#0080C0"))
+
+
 // 6. Write a function convertRgbToHexa which converts rgb to hexa color and it returns an hexa color.
 
 // 7. Write a function generateColors which can generate any number of hexa or rgb colors.
