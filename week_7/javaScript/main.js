@@ -542,16 +542,28 @@ function return the id. */
 
 // 6. Write a function convertRgbToHexa which converts rgb to hexa color and it returns an hexa color.
 
-    const convertRgbToHexa = (r,g,b) => {
-        let hexR = r.toString(16).padStart(2, '0');
-        let hexG = g.toString(16).padStart(2, '0');
-        let hexB = b.toString(16).padStart(2, '0');
+    // const convertRgbToHexa = (r,g,b) => {
+    //     let hexR = r.toString(16).padStart(2, '0');
+    //     let hexG = g.toString(16).padStart(2, '0');
+    //     let hexB = b.toString(16).padStart(2, '0');
 
-        return `#${hexR}${hexG}${hexB}`;
-    }
-    console.log(convertRgbToHexa(0,128,192));
+    //     return `#${hexR}${hexG}${hexB}`;
+    // }
+    // console.log(convertRgbToHexa(0,128,192));
 
 
+    //Another Method Using regex
+    // function convertToRgb(rgb) {
+    //     let [r, g, b] = rgb.match(/\d+/g)
+    //     let hexR = Number(r).toString(16).padStart(2,"0")
+    //     let hexG = Number(g).toString(16).padStart(2,"0")
+    //     let hexB = Number(b).toString(16).padStart(2,"0")
+    //         return `#${hexR}${hexG}${hexB}`
+    //     }
+        
+    //     console.log(convertToRgb("15, 128,192"));
+
+   
 // 7. Write a function generateColors which can generate any number of hexa or rgb colors.
 
     // console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
