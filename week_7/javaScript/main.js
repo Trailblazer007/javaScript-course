@@ -552,9 +552,20 @@ function return the id. */
     // console.log(convertRgbToHexa(0,128,192));
 
 
-    //Another Method Using regex
+    //Another Method Using regex;
     // function convertToRgb(rgb) {
     //     let [r, g, b] = rgb.match(/\d+/g)
+    //     let hexR = Number(r).toString(16).padStart(2,"0")
+    //     let hexG = Number(g).toString(16).padStart(2,"0")
+    //     let hexB = Number(b).toString(16).padStart(2,"0")
+    //         return `#${hexR}${hexG}${hexB}`
+    //     }
+        
+    //     console.log(convertToRgb("15, 128,192"));
+
+    // Another Method Using Split Instead of RegEx;
+     // function convertToRgb(rgb) {
+    //     let [r, g, b] = rgb.split(",")
     //     let hexR = Number(r).toString(16).padStart(2,"0")
     //     let hexG = Number(g).toString(16).padStart(2,"0")
     //     let hexB = Number(b).toString(16).padStart(2,"0")
