@@ -526,6 +526,17 @@ function return the id. */
   
 //   console.log(arrayOfRgbcolors());
 
+  // The function below generates a random number of either RGB or Hexadecimal colours
+        // function generateAnyNoOfColors(){
+                
+        //     let randomLimit = Math.floor(Math.random()* 6.5);
+            
+        //     if(randomLimit % 2 == 0){return arrayOfRgbcolors()}
+        //     return arrayOfHexaColors();
+            
+        // }
+        // console.log(generateAnyNoOfColors());
+
     
 
 // 5. Write a function convertHexaToRgb which converts hexa color to rgb and it returns an rgb color.
@@ -576,6 +587,8 @@ function return the id. */
 
    
 // 7. Write a function generateColors which can generate any number of hexa or rgb colors.
+
+    
 
     // console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
     // console.log(generateColors('hexa', 1)) // '#b334ef'
