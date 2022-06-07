@@ -599,7 +599,7 @@ function return the id. */
 
                     hexArray.push(`#${hexColR}${hexColG}${hexColB}`);
 
-                }return hexArray;
+                }if(hexArray.length == 1){return hexArray.join()}return hexArray ;
                 
             }else if(color == 'rgb'){
                 let rgbArray = [];
@@ -610,12 +610,12 @@ function return the id. */
                 let b = Math.floor(Math.random()* 256);
 
                 rgbArray.push(`rgb(${r}, ${g}, ${b})`)
-               }return rgbArray
+               }if (rgbArray.length == 1){return rgbArray.toString()}return rgbArray;
 
             }else {return 'invalid input'}
 
         }
-        console.log(generateColors('rgb', 3));
+        console.log(generateColors('rgb', 1));
     
 
     // console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
