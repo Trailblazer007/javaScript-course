@@ -587,35 +587,35 @@ function return the id. */
 
    
 // 7. Write a function generateColors which can generate any number of hexa or rgb colors.
-        const generateColors = (color, amount) => {
+        // const generateColors = (color, amount) => {
             
-            if(color == 'hexa' || color == 'hex'){
-                let hexArray = [];
+        //     if(color == 'hexa' || color == 'hex'){
+        //         let hexArray = [];
                 
-                for(let i=1; i<=amount; i++){
-                    let hexColR = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
-                    let hexColG = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
-                    let hexColB = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+        //         for(let i=1; i<=amount; i++){
+        //             let hexColR = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+        //             let hexColG = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+        //             let hexColB = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
 
-                    hexArray.push(`#${hexColR}${hexColG}${hexColB}`);
+        //             hexArray.push(`#${hexColR}${hexColG}${hexColB}`);
 
-                }if(hexArray.length == 1){return hexArray.join()}return hexArray ;
+        //         }if(hexArray.length == 1){return hexArray.join()}return hexArray ;
                 
-            }else if(color == 'rgb'){
-                let rgbArray = [];
+        //     }else if(color == 'rgb'){
+        //         let rgbArray = [];
 
-               for(let i=1; i<=amount; i++){
-                let r = Math.floor(Math.random()* 256);
-                let g = Math.floor(Math.random()* 256);
-                let b = Math.floor(Math.random()* 256);
+        //        for(let i=1; i<=amount; i++){
+        //         let r = Math.floor(Math.random()* 256);
+        //         let g = Math.floor(Math.random()* 256);
+        //         let b = Math.floor(Math.random()* 256);
 
-                rgbArray.push(`rgb(${r}, ${g}, ${b})`)
-               }if (rgbArray.length == 1){return rgbArray.toString()}return rgbArray;
+        //         rgbArray.push(`rgb(${r}, ${g}, ${b})`)
+        //        }if (rgbArray.length == 1){return rgbArray.toString()}return rgbArray;
 
-            }else {return 'invalid input'}
+        //     }else {return 'invalid input'}
 
-        }
-        console.log(generateColors('rgb', 1));
+        // }
+        // console.log(generateColors('rgb', 1));
     
 
     // console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -625,6 +625,11 @@ function return the id. */
 
 
 // 8. Call your function shuffleArray, it takes an array as a parameter and it returns a shuffled array
+
+    // const shuffleArray = (arr) => {
+    //     return arr.sort();
+    // }
+    // console.log(shuffleArray(['man', 'cow', 'girl', 'gender', 'football']))
 
 // 9. Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
 
