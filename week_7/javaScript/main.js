@@ -590,30 +590,32 @@ function return the id. */
         const generateColors = (color, amount) => {
             
             if(color == 'hexa' || color == 'hex'){
+                let hexArray = [];
                 
                 for(let i=1; i<=amount; i++){
-                let hecColR = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
-                let hecColG = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
-                let hecColB = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+                    let hexColR = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+                    let hexColG = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+                    let hexColB = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
 
-                return `#${hecColR}${hecColG}${hecColB}`;
-                }
+                    hexArray.push(`#${hexColR}${hexColG}${hexColB}`);
+
+                }return hexArray;
                 
             }else if(color == 'rgb'){
-               
+                let rgbArray = [];
 
                for(let i=1; i<=amount; i++){
                 let r = Math.floor(Math.random()* 256);
                 let g = Math.floor(Math.random()* 256);
                 let b = Math.floor(Math.random()* 256);
 
-                return `rgb(${r}, ${g}, ${b})`;
-               }
+                rgbArray.push(`rgb(${r}, ${g}, ${b})`)
+               }return rgbArray
 
             }else {return 'invalid input'}
 
         }
-        console.log(generateColors('hex', 3));
+        console.log(generateColors('rgb', 3));
     
 
     // console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
