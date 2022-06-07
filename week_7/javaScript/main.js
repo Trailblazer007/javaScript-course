@@ -526,16 +526,16 @@ function return the id. */
   
 //   console.log(arrayOfRgbcolors());
 
-  // The function below generates a random number of either RGB or Hexadecimal colours
-        // function generateAnyNoOfColors(){
-                
-        //     let randomLimit = Math.floor(Math.random()* 6.5);
-            
-        //     if(randomLimit % 2 == 0){return arrayOfRgbcolors()}
-        //     return arrayOfHexaColors();
-            
-        // }
-        // console.log(generateAnyNoOfColors());
+            // The function below generates a random number of either RGB or Hexadecimal colours
+                    // function generateAnyNoOfColors(){
+                            
+                    //     let randomLimit = Math.floor(Math.random()* 6.5);
+                        
+                    //     if(randomLimit % 2 == 0){return arrayOfRgbcolors()}
+                    //     return arrayOfHexaColors();
+                        
+                    // }
+                    // console.log(generateAnyNoOfColors());
 
     
 
@@ -587,7 +587,33 @@ function return the id. */
 
    
 // 7. Write a function generateColors which can generate any number of hexa or rgb colors.
+        const generateColors = (color, amount) => {
+            
+            if(color == 'hexa' || color == 'hex'){
+                
+                for(let i=1; i<=amount; i++){
+                let hecColR = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+                let hecColG = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
+                let hecColB = (Math.floor(Math.random()* 256)).toString(16).padStart(2,"0");
 
+                return `#${hecColR}${hecColG}${hecColB}`;
+                }
+                
+            }else if(color == 'rgb'){
+               
+
+               for(let i=1; i<=amount; i++){
+                let r = Math.floor(Math.random()* 256);
+                let g = Math.floor(Math.random()* 256);
+                let b = Math.floor(Math.random()* 256);
+
+                return `rgb(${r}, ${g}, ${b})`;
+               }
+
+            }else {return 'invalid input'}
+
+        }
+        console.log(generateColors('hex', 3));
     
 
     // console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
