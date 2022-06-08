@@ -634,16 +634,21 @@ function return the id. */
 
 // 9. Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
 
-    const factorial = (n) => {
-        let product = 1;
-        for(let i=n; i>= 1; i--){
-            product *= i;
-        }return product;
+    // const factorial = (n) => {
+    //     let product = 1;
+    //     for(let i=n; i>= 1; i--){
+    //         product *= i;
+    //     }return product;
         
-    }
-    console.log(factorial(5));
+    // }
+    // console.log(factorial(5));
 
 // 10. Call your function isEmpty, it takes a parameter and it checks if it is empty or not
+    // const isEmpty = (arr) => {
+    //     if(arr.length == 0){return `array is empty`} return `array is not empty`
+
+    // }
+    // console.log(isEmpty([]))
 
 // 11. Call your function sum, it takes any number of arguments and it returns the sum.
 
