@@ -651,6 +651,15 @@ function return the id. */
     // console.log(isEmpty([]))
 
 // 11. Call your function sum, it takes any number of arguments and it returns the sum.
+    // function sum() {
+    //     let adder = 0;
+    //     for (let i = 0; i < arguments.length; i++) {
+    //         adder += arguments[i]
+    //     }
+    //     return adder;
+    // }
+    // console.log(sum(4,6,7));
+
 
 // 12. Write a function called sumOfArrayItems, it takes an array parameter and return the sum of all the items. Check if all the array items are number types. If not give return reasonable feedback.
 
