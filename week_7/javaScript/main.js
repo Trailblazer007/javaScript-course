@@ -704,6 +704,13 @@ the array. If the array length is less than five it return 'item not found'. */
 
 // 15. Write a function called isPrime, which checks if a number is prime number.
 
+    const isPrime = (number) => {
+        if(number % 2 == 0){
+            return 'The number is not a prime number'
+        }return 'The number is a prime number'
+    }
+    console.log(isPrime(5));
+
 // 16. Write a functions which checks if all items are unique in the array.
 
 // 17. Write a function which checks if all the items of the array are the same data type.
