@@ -677,6 +677,15 @@ function return the id. */
 /* 13. Write a function called average, it takes an array parameter and returns the average of the items. Check if all 
 the array items are number types. If not give return reasonable feedback. */
 
+    function average(arr){
+    let sum = 0;
+    for(element of arr){
+        sum += element
+    }
+    return sum/element;
+    }
+    console.log(average([2,5,3]));
+
 /* 14. Write a function called modifyArray takes array as parameter and modifies the fifth item of the array and return 
 the array. If the array length is less than five it return 'item not found'. */
 
