@@ -704,14 +704,36 @@ the array. If the array length is less than five it return 'item not found'. */
 
 // 15. Write a function called isPrime, which checks if a number is prime number.
 
-    const isPrime = (number) => {
-        if(number % 2 == 0){
-            return 'The number is not a prime number'
-        }return 'The number is a prime number'
-    }
-    console.log(isPrime(5));
+    // const isPrime = (number) => {
+    //     if(number % 2 == 0){
+    //         return 'The number is not a prime number'
+    //     }return 'The number is a prime number'
+    // }
+    // console.log(isPrime(5));
 
 // 16. Write a functions which checks if all items are unique in the array.
+function uniqueItem() {
+    let arr = ["abc","xy","bb", "axz", "abc"];
+    // empty object
+    let map = {};
+    let result = false;
+    for(let i = 0; i < arr.length; i++) {
+       // check if object contains entry with this element as key
+       if(map[arr[i]]) {
+          result = true;
+          // terminate the loop
+          break;
+       }
+       // add entry in object with the element as key
+       map[arr[i]] = true;
+    }
+    if(result) {
+       return 'Array contains duplicate elements';
+    } else {
+       return'Array does not contain duplicate elements';
+    }
+ }
+console.log(uniqueItem(['a', 1, 'a', 2, '1']))
 
 // 17. Write a function which checks if all the items of the array are the same data type.
 
