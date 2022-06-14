@@ -712,8 +712,8 @@ the array. If the array length is less than five it return 'item not found'. */
     // console.log(isPrime(5));
 
 // 16. Write a functions which checks if all items are unique in the array.
-function uniqueItem() {
-    let arr = ["abc","xy","bb", "axz", "abc"];
+function uniqueItem(arr) {
+    
     // empty object
     let map = {};
     let result = false;
