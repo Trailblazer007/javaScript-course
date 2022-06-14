@@ -712,30 +712,42 @@ the array. If the array length is less than five it return 'item not found'. */
     // console.log(isPrime(5));
 
 // 16. Write a functions which checks if all items are unique in the array.
-function uniqueItem(arr) {
-    
-    // empty object
-    let map = {};
-    let result = false;
-    for(let i = 0; i < arr.length; i++) {
-       // check if object contains entry with this element as key
-       if(map[arr[i]]) {
-          result = true;
-          // terminate the loop
-          break;
-       }
-       // add entry in object with the element as key
-       map[arr[i]] = true;
-    }
-    if(result) {
-       return 'Array contains duplicate elements';
-    } else {
-       return'Array does not contain duplicate elements';
-    }
- }
-console.log(uniqueItem(['a', 1, 'a', 2, '1']))
+// function uniqueItem(arr) {
+//         // empty object
+//     let map = {};
+//     let result = false;
+//     for(let i = 0; i < arr.length; i++) {
+//        // check if object contains entry with this element as key
+//        if(map[arr[i]]) {
+//           result = true;
+//           // terminate the loop
+//           break;
+//        }
+//        // add entry in object with the element as key
+//        map[arr[i]] = true;
+//     }
+//     if(result) {
+//        return 'Array contains duplicate elements';
+//     } else {
+//        return'Array does not contain duplicate elements';
+//     }
+//  }
+// console.log(uniqueItem(['a', 1, 'a', 2, '1']))
 
 // 17. Write a function which checks if all the items of the array are the same data type.
+
+    function checkDataType(arr){
+        let result = true;
+        for(let i= 0; i<arr.length; i++){
+            if(typeof(arr[i]) !== typeof(arr[i]) ){
+                result = false;
+                break;
+            }
+            
+        }
+        return result;
+    }
+    console.log(checkDataType(['a', true, NaN, 60]))
 
 /* 18. JavaScript variable name does not support special characters or symbols except $ or _. Write a function 
 isValidVariable which check if a variable is valid or invalid variable. */
