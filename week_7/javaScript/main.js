@@ -689,6 +689,8 @@ the array items are number types. If not give return reasonable feedback. */
 /* 14. Write a function called modifyArray takes array as parameter and modifies the fifth item of the array and return 
 the array. If the array length is less than five it return 'item not found'. */
     // function modifyArray(array){
+    //    if(array.length <5){return `item not found`}
+
     //     let capsWord = array[4].toUpperCase();
     //     array.splice(4, 1, capsWord);
     //     return array;
@@ -699,7 +701,7 @@ the array. If the array length is less than five it return 'item not found'. */
     // ['Avocado', 'Tomato', 'Potato','Mango', 'LEMON', 'Carrot']
     // console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']);
     // ['Google', 'Facebook','Apple', 'Amazon','MICROSOFT',  'IBM']
-    // console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
+    //console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']));
     //     'Not Found'
 
 // 15. Write a function called isPrime, which checks if a number is prime number.
@@ -764,8 +766,7 @@ isValidVariable which check if a variable is valid or invalid variable. */
     // console.log(isValidVariable('%manner'));
 
 // 19.  Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
-
-    // sevenRandomNumbers()
+    
     // [(1, 4, 5, 7, 9, 8, 0)]
 
 /* 20. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the 
