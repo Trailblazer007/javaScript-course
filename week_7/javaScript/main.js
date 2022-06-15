@@ -736,18 +736,20 @@ the array. If the array length is less than five it return 'item not found'. */
 
 // 17. Write a function which checks if all the items of the array are the same data type.
 
-    function checkDataType(arr){
-        let result = true;
-        for(let i= 0; i<arr.length; i++){
-            if(typeof(arr[i]) !== typeof(arr[i]) ){
-                result = false;
-                break;
-            }
+    // function checkDataType(arr){
+    //     let result = true;
+    //     for(let i= 1; i<arr.length; i++){
+    //         if(typeof(arr[0]) !== typeof(arr[i]) ){
+    //             result = false;
+    //             break;
+    //         }
             
-        }
-        return result;
-    }
-    console.log(checkDataType(['a', true, NaN, 60]))
+    //     }
+    //     return result;
+    // }
+    // console.log(checkDataType(['a', true, NaN, 60]));
+    // console.log(checkDataType(['a', 'bang', undefined, 600]));
+    // console.log(checkDataType(['a', 'seven']))
 
 /* 18. JavaScript variable name does not support special characters or symbols except $ or _. Write a function 
 isValidVariable which check if a variable is valid or invalid variable. */
