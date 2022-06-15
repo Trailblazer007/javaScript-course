@@ -754,13 +754,14 @@ the array. If the array length is less than five it return 'item not found'. */
 /* 18. JavaScript variable name does not support special characters or symbols except $ or _. Write a function 
 isValidVariable which check if a variable is valid or invalid variable. */
 
-    function isValidVariable(word){
-        
-        if(word.includes('*') || word.includes('@') || word.includes('#') || word.includes('!') || word.includes('~') || word.includes('`') || word.includes('%') || word.includes('^'))
-        {return `invalid variable!`}
-        return `valid varaible!`;
-    }
-    console.log(isValidVariable('%manner'));
+    // function isValidVariable(word){
+    //     let pattern = /[^A-Za-z$_0-9]/gi;
+    //     if(pattern.test(word)){
+    //         return `invalid variable!`
+    //     }      
+    //     return `valid varaible!`;
+    // }
+    // console.log(isValidVariable('%manner'));
 
 // 19.  Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
