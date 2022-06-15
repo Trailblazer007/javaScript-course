@@ -778,9 +778,16 @@ isValidVariable which check if a variable is valid or invalid variable. */
     //     sevenRandomNumbers()
     // [(1, 4, 5, 7, 9, 8, 0)]
 
-/* 20. Write a function called reverseCountries, it takes countries array and first it copy the array and returns the 
+/* 20. Write a function called reverseCountries, it takes countries array and first it copies the array and returns the 
 reverse of the original array */
-
+//     function reverseCountries(arr){
+//         let newArr = [];
+//         for(let i = arr.length - 1; i>= 0; i--){
+//             newArr.push(arr[i])
+//         }
+//         return newArr;
+//     }
+// console.log(reverseCountries(['USA', 'california', 'mexico', 'UK']))
 
 
 
