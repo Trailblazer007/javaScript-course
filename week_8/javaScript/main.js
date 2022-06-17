@@ -7,6 +7,7 @@
 
 /* 3 Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return 
 woof woof */
+        dog['name'] = 'bingo'
         dog.legs = '4';
         dog['color'] = 'brown';
         dog.age = '6 months';
@@ -14,6 +15,7 @@ woof woof */
         
 
 // 4 Get name, legs, color, age and bark value from the dog object
+        
 
 // 5 Set new properties the dog object: breed, getDogInfo
 
