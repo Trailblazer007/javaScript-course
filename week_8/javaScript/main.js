@@ -20,8 +20,10 @@ woof woof */
        let dogColor = dog.color;
        let dogAge = dog.age;
        let dogBark = dog.bark;
+       console.log(dogName, dogLegs, dogColor, dogAge, dogBark)
 
 // 5 Set new properties the dog object: breed, getDogInfo
+        
 
 
 // Exercises: Level 2
