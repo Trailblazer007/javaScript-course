@@ -1,12 +1,17 @@
 // Exercises: Level 1
 // 1. Create an empty object called dog
-//     let dog = {};
+    let dog = {};
 
 // 2. Print the the dog object on the console
-        // console.log(dog);
+        console.log(dog);
 
 /* 3 Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return 
 woof woof */
+        dog.legs = '4';
+        dog['color'] = 'brown';
+        dog.age = '6 months';
+        dog['bark'] = 'very active';
+        
 
 // 4 Get name, legs, color, age and bark value from the dog object
 
