@@ -15,7 +15,11 @@ woof woof */
         
 
 // 4 Get name, legs, color, age and bark value from the dog object
-        
+       let dogName = dog['name'];
+       let dogLegs = dog.legs;
+       let dogColor = dog.color;
+       let dogAge = dog.age;
+       let dogBark = dog.bark;
 
 // 5 Set new properties the dog object: breed, getDogInfo
 
