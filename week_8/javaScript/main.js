@@ -30,65 +30,88 @@ woof woof */
                 return `The full information about this dog is: ${dogName}. He has ${dogLegs} and is ${dogColor} in color. He is also ${dogAge} and barks ${dogBark} and a special breed of ${dogBreed}`;
                 
         } 
-        console.log(dog);
+        
 
 
 // Exercises: Level 2
+        const users = {
+                Alex: {
+                email: 'alex@alex.com',
+                skills: ['HTML', 'CSS', 'JavaScript'],
+                age: 20,
+                isLoggedIn: false,
+                points: 30
+                },
+                Asab: {
+                email: 'asab@asab.com',
+                skills: ['HTML', 'CSS', 'JavaScript', 'Redux', 'MongoDB', 'Express', 'React', 'Node'],
+                age: 25,
+                isLoggedIn: false,
+                points: 50
+                },
+                Brook: {
+                email: 'daniel@daniel.com',
+                skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+                age: 30,
+                isLoggedIn: true,
+                points: 50
+                },
+                Daniel: {
+                email: 'daniel@alex.com',
+                skills: ['HTML', 'CSS', 'JavaScript', 'Python'],
+                age: 20,
+                isLoggedIn: false,
+                points: 40
+                },
+                John: {
+                email: 'john@john.com',
+                skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node.js'],
+                age: 20,
+                isLoggedIn: true,
+                points: 50
+                },
+                Thomas: {
+                email: 'thomas@thomas.com',
+                skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+                age: 20,
+                isLoggedIn: false,
+                points: 40
+                },
+                Paul: {
+                email: 'paul@paul.com',
+                skills: ['HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express', 'React', 'Node'],
+                age: 20,
+                isLoggedIn: false,
+                points: 40
+                }
+        }
+
 // 1.  Find the person who has many skills in the users object.
+        // function highestSkillCount(){
+        //         let maxSkills = 0;
+        //         for(let i = 0; i<users.length; i++){
+        //                 maxSkills =  users[0].skills.length
+        //                 if(users[i].skills.length > maxSkills){return users[i]}
+        //                 maxSkills = 0;
+        //         }
+        //         maxSkills = 0;
+        // }
+        // console.log(highestSkillCount())
+
+        let answer = '';
+        let max = 0;
+        for(let keys in users){
+                if((users[keys].skills).length > max){
+                        max = (users[keys].skills).length
+                        answer = keys
+                }
+        }
+        console.log(answer)
+
         
 
 // 2. Count logged in users, count users having greater than equal to 50 points from the following object.
-        const users = {
-            Alex: {
-            email: 'alex@alex.com',
-            skills: ['HTML', 'CSS', 'JavaScript'],
-            age: 20,
-            isLoggedIn: false,
-            points: 30
-            },
-            Asab: {
-            email: 'asab@asab.com',
-            skills: ['HTML', 'CSS', 'JavaScript', 'Redux', 'MongoDB', 'Express', 'React', 'Node'],
-            age: 25,
-            isLoggedIn: false,
-            points: 50
-            },
-            Brook: {
-            email: 'daniel@daniel.com',
-            skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
-            age: 30,
-            isLoggedIn: true,
-            points: 50
-            },
-            Daniel: {
-            email: 'daniel@alex.com',
-            skills: ['HTML', 'CSS', 'JavaScript', 'Python'],
-            age: 20,
-            isLoggedIn: false,
-            points: 40
-            },
-            John: {
-            email: 'john@john.com',
-            skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node.js'],
-            age: 20,
-            isLoggedIn: true,
-            points: 50
-            },
-            Thomas: {
-            email: 'thomas@thomas.com',
-            skills: ['HTML', 'CSS', 'JavaScript', 'React'],
-            age: 20,
-            isLoggedIn: false,
-            points: 40
-            },
-            Paul: {
-            email: 'paul@paul.com',
-            skills: ['HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express', 'React', 'Node'],
-            age: 20,
-            isLoggedIn: false,
-            points: 40
-            }
-        }
+       
 
 // 3. Find people who are MERN stack developer from the users object
 
