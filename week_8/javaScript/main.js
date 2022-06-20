@@ -146,6 +146,9 @@ woof woof */
         // console.log(Object.values(users))
 
 // 7. Use the countries object to print a country name, capital, populations and languages.
+        //This question is invalid
+
+
 
 
 // Exercises: Level 3
