@@ -140,6 +140,7 @@ woof woof */
 
 
 // 5. Get all keys or properties of users object
+        // console.log(Object.keys(users))
 
 // 6. Get all the values of users object
 
