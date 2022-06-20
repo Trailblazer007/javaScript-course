@@ -119,15 +119,25 @@ woof woof */
        
 
 // 3. Find people who are MERN stack developer from the users object
-        let mernDevs = 0 ;
-        for(let keys in users){
-                if(users[keys].skills.includes('mongoDb', 'expressJs', 'resctJs', 'nodeJs')){
-                        mernDevs += 1;
-                }
-        }
-        console.log(`MERN stack developers are ${mernDevs} in number`)
+        // let mernDevs = 0 ;
+        // for(let keys in users){
+        //         if(users[keys].skills.includes('mongoDb', 'expressJs', 'resctJs', 'nodeJs')){
+        //                 mernDevs += 1;
+        //         }
+        // }
+        // console.log(`MERN stack developers are ${mernDevs} in number`)
 
 // 4. Set your name in the users object without modifying the original users object
+        // const users2 = Object.assign({}, users)
+        // users2['Seun'] = {
+        //         email: 'seun@seun.com',
+        //         skills: ['HTML', 'CSS', 'JavaScript'],
+        //         age: 26,
+        //         isLoggedIn: false,
+        //         points: 50
+        // }
+        // console.log(users2)
+
 
 // 5. Get all keys or properties of users object
 
