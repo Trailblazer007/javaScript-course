@@ -143,6 +143,7 @@ woof woof */
         // console.log(Object.keys(users))
 
 // 6. Get all the values of users object
+        // console.log(Object.values(users))
 
 // 7. Use the countries object to print a country name, capital, populations and languages.
 
