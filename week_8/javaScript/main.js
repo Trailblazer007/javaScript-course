@@ -107,6 +107,15 @@ woof woof */
                 }
         }
         console.log(`The number of logged in users are ${loggedIn} users`)
+
+        // The second part of the question
+        let highPointers = 0;
+        for(let keys in users){
+                if(users[keys].points >= 50){
+                        highPointers += 1;
+                }
+        }
+        console.log(`The users with points above 50 are: ${highPointers}`)
        
 
 // 3. Find people who are MERN stack developer from the users object
