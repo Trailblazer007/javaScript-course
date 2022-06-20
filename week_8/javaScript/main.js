@@ -87,30 +87,26 @@ woof woof */
         }
 
 // 1.  Find the person who has many skills in the users object.
-        // function highestSkillCount(){
-        //         let maxSkills = 0;
-        //         for(let i = 0; i<users.length; i++){
-        //                 maxSkills =  users[0].skills.length
-        //                 if(users[i].skills.length > maxSkills){return users[i]}
-        //                 maxSkills = 0;
+        // let answer = '';
+        // let max = 0;
+        // for(let keys in users){
+        //         if((users[keys].skills).length > max){
+        //                 max = (users[keys].skills).length
+        //                 answer = keys
         //         }
-        //         maxSkills = 0;
         // }
-        // console.log(highestSkillCount())
-
-        let answer = '';
-        let max = 0;
-        for(let keys in users){
-                if((users[keys].skills).length > max){
-                        max = (users[keys].skills).length
-                        answer = keys
-                }
-        }
-        console.log(answer)
+        // console.log(answer)
 
         
 
 // 2. Count logged in users, count users having greater than equal to 50 points from the following object.
+        let loggedIn = 0;
+        for(let keys in users){
+                if(users[keys].isLoggedIn === true){
+                        loggedIn += 1
+                }
+        }
+        console.log(`The number of logged in users are ${loggedIn} users`)
        
 
 // 3. Find people who are MERN stack developer from the users object
