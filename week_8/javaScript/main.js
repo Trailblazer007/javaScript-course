@@ -100,25 +100,32 @@ woof woof */
         
 
 // 2. Count logged in users, count users having greater than equal to 50 points from the following object.
-        let loggedIn = 0;
-        for(let keys in users){
-                if(users[keys].isLoggedIn === true){
-                        loggedIn += 1
-                }
-        }
-        console.log(`The number of logged in users are ${loggedIn} users`)
+        // let loggedIn = 0;
+        // for(let keys in users){
+        //         if(users[keys].isLoggedIn === true){
+        //                 loggedIn += 1
+        //         }
+        // }
+        // console.log(`The number of logged in users are ${loggedIn} users`)
 
-        // The second part of the question
-        let highPointers = 0;
-        for(let keys in users){
-                if(users[keys].points >= 50){
-                        highPointers += 1;
-                }
-        }
-        console.log(`The users with points above 50 are: ${highPointers}`)
+        // // The second part of the question
+        // let highPointers = 0;
+        // for(let keys in users){
+        //         if(users[keys].points >= 50){
+        //                 highPointers += 1;
+        //         }
+        // }
+        // console.log(`The users with points above 50 are: ${highPointers}`)
        
 
 // 3. Find people who are MERN stack developer from the users object
+        let mernDevs = 0 ;
+        for(let keys in users){
+                if(users[keys].skills.includes('mongoDb', 'expressJs', 'resctJs', 'nodeJs')){
+                        mernDevs += 1;
+                }
+        }
+        console.log(`MERN stack developers are ${mernDevs} in number`)
 
 // 4. Set your name in the users object without modifying the original users object
 
