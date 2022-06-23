@@ -27,7 +27,8 @@ woof woof */
         let dogBreed = dog.breed;
 
         dog['getDogInfo'] = function () {
-                return `The full information about this dog is: ${dogName}. He has ${dogLegs} and is ${dogColor} in color. He is also ${dogAge} and barks ${dogBark} and a special breed of ${dogBreed}`;
+                return `The full information about this dog is: ${dogName}. He has ${dogLegs} and is ${dogColor} in color. 
+                He is also ${dogAge} and barks ${dogBark} and a special breed of ${dogBreed}`;
                 
         } 
         
@@ -154,6 +155,39 @@ woof woof */
 // Exercises: Level 3
 /* 1. Create an object literal called personAccount. It has firstName, lastName, incomes, expenses properties and 
 incomes and its description and expenses is a set of incomes and its description.*/
+        // const personAccount = {
+        //         firstName: 'Max', 
+        //         lastName: 'Payne', 
+
+        //         incomes: {
+        //                 firstHalf: 700,
+        //                 secondHalf: 850
+        //         }, 
+        //         expenses: {
+        //                 food: 120,
+        //                 transportation: 50,
+        //                 mobileData: 100
+        //         }, 
+
+        //         totalIncome:()=>{
+        //                 return `${personAccount.incomes.firstHalf + personAccount.incomes.secondHalf}`
+        //         },
+        //         totalExpense(){
+        //                 return `${this.expenses.food + this.expenses.transportation + this.expenses.mobileData}`
+        //         },
+        //         accountInfo: {
+        //                 bankName: 'First Bank',
+        //                 accountNumber: '307*****47'
+        //         },
+        //         // addIncome:, 
+        //         // addExpense: 
+        //         accountBalance(){
+        //                return `${this.totalIncome() - this.totalExpense()}`
+        //         }
+
+
+        // }
+        // console.log(personAccount.accountBalance())
 
 // 2. **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 
