@@ -288,13 +288,15 @@ incomes and its description and expenses is a set of incomes and its description
         function signIn(email, password){
                 for(let i = 0; i < users.length; i++){
                         if(email == users[i].email && password == users[i].password){
-                                return 'You have successfuly signed in!';
+                                alert ('You have successfuly signed in!');
+                                break;
                                 
-                        } return'Kindly create an account';
+                        } alert ('Kindly create an account');
+                        break;
                 }
                 
         }
-        console.log(signIn("alex@alex.com", 123123))
+        console.log(signIn("alerx@alex.com", 123123))
 
 /* 3. The products array has three elements and each of them has six properties. a. Create a function called rateProduct
  which rates the product b. Create a function called averageRating which calculate the average rating of a product */
