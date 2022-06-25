@@ -267,26 +267,34 @@ incomes and its description and expenses is a set of incomes and its description
 /* Imagine you are getting the above users collection from a MongoDB database. a. Create a function called signUp which
  allows user to add to the collection. If user exists, inform the user that he has already an account. */
 
-        function signUp(object){
-                return users.every(user => object._id !== user._id) 
-                       ? users.push(object)
-                       : `user already exists!`
-                             
-                
+        // function signUp(object){
+        //         return users.every(user => object._id !== user._id) 
+        //                ? users.push(object)
+        //                : `user already exists!`
+                                            
+        // }
+        
+        // console.log(signUp({
+        //         _id: 'ab12ex',
+        //         username: 'Alex',
+        //         email: 'alex@alex.com',
+        //         password: '123123',
+        //         createdAt:'08/01/2020 9:00 AM',
+        //         isLoggedIn: false
+        // }))
+
+
+/*b. Create a function called signIn which allows user to sign in to the application */
+        function signIn(email, password){
+                for(let i = 0; i < users.length; i++){
+                        if(email == users[i].email && password == users[i].password){
+                                return 'You have successfuly signed in!';
+                                
+                        } return'Kindly create an account';
+                }
                 
         }
-        
-        console.log(signUp({
-                _id: 'aggb12ex',
-                username: 'Alex',
-                email: 'alex@alex.com',
-                password: '123123',
-                createdAt:'08/01/2020 9:00 AM',
-                isLoggedIn: false
-        }))
-
-        console.log(users)
-/*b. Create a function called signIn which allows user to sign in to the application */
+        console.log(signIn("alex@alex.com", 123123))
 
 /* 3. The products array has three elements and each of them has six properties. a. Create a function called rateProduct
  which rates the product b. Create a function called averageRating which calculate the average rating of a product */
