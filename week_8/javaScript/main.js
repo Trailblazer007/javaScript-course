@@ -285,21 +285,31 @@ incomes and its description and expenses is a set of incomes and its description
 
 
 /*b. Create a function called signIn which allows user to sign in to the application */
-        function signIn(email, password){
-                for(let i = 0; i < users.length; i++){
-                        if(email == users[i].email && password == users[i].password){
-                                alert ('You have successfuly signed in!');
-                                break;
+        // function signIn(email, password){
+        //         for(let i = 0; i < users.length; i++){
+        //                 if(email == users[i].email && password == users[i].password){
+        //                         alert ('You have successfuly signed in!');
+        //                         break;
                                 
-                        } alert ('Kindly create an account');
-                        break;
-                }
+        //                 } alert ('Kindly create an account');
+        //                 break;
+        //         }
                 
-        }
-        console.log(signIn("alerx@alex.com", 123123))
+        // }
+        // console.log(signIn("alex@alex.com", 123123))
 
-/* 3. The products array has three elements and each of them has six properties. a. Create a function called rateProduct
- which rates the product b. Create a function called averageRating which calculate the average rating of a product */
+/* 3. The products array has three elements and each of them has six properties. 
+        a. Create a function called rateProduct which rates the product
+        b. Create a function called averageRating which calculate the average rating of a product */
+
+        function rateProduct(products){
+                for(let i= 0; i < products.length; i++){
+                        if(products[i].ratings <= 500) {return products[i].ratings.push(Math.floor(Math.random() * 3))}
+                        else{products[i].ratings > 500} return products[i].ratings.push(Math.floor(Math.random() * 6));
+                         
+                }
+        }
+        console.log(rateProduct(products));
 
 /* 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove 
 like if it was liked. */
