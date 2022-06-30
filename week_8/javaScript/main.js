@@ -311,19 +311,34 @@ incomes and its description and expenses is a set of incomes and its description
                         
         //         }
         //     }
-        //     console.log(rateProduct(products));
+        // console.log(rateProduct(products));
 
 
         // function averageRating(obj){
-        //         let rateArr = [];
-        //         for(let values of ratings){
-        //                 rateArr.push(rate)
-        //         }
-        //         console.log(rateArr)
-        //      if(obj.ratings.rate )
+        //        let totalRatings = obj.ratings.reduce((acc, cv)=> acc + cv.rate, 0);
+        //        return totalRatings/obj.ratings.length;
               
         // }
-        // console.log(averageRating())
+        // console.log(averageRating({
+        //         _id: 'eedfcf',
+        //         name: 'mobile phone',
+        //         description: 'Huawei Honor',
+        //         price: 200,
+        //         ratings: [
+        //           { userId: 'fg12cy', rate: 5 },
+        //           { userId: 'zwf8md', rate: 4.5 }
+        //         ],
+        //         likes: []
+        //       }))
+
+        function averageRating(arr){
+                return arr.map((product) => {
+                        let totalRatings = product.ratings.reduce((acc, cv)=> acc + cv.rate, 0);
+                        return totalRatings/product.ratings.length;
+                })
+
+        }
+        console.log(averageRating(products))
 
 /* 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove 
 like if it was liked. */
