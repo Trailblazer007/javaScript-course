@@ -331,14 +331,14 @@ incomes and its description and expenses is a set of incomes and its description
         //         likes: []
         //       }))
 
-        function averageRating(arr){
-                return arr.map((product) => {
-                        let totalRatings = product.ratings.reduce((acc, cv)=> acc + cv.rate, 0);
-                        return totalRatings/product.ratings.length;
-                })
+        // function averageRating(arr){
+        //         return arr.map((product) => {
+        //                 let totalRatings = product.ratings.reduce((acc, cv)=> acc + cv.rate, 0);
+        //                 return totalRatings/product.ratings.length;
+        //         })
 
-        }
-        console.log(averageRating(products))
+        // }
+        // console.log(averageRating(products))
 
 /* 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove 
 like if it was liked. */
