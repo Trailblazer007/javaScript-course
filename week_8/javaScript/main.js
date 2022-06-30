@@ -302,14 +302,28 @@ incomes and its description and expenses is a set of incomes and its description
         a. Create a function called rateProduct which rates the product
         b. Create a function called averageRating which calculate the average rating of a product */
 
-        function rateProduct(products){
-                for(let i= 0; i < products.length; i++){
-                        if(products[i].ratings <= 500) {return products[i].ratings.push(Math.floor(Math.random() * 3))}
-                        else{products[i].ratings > 500} return products[i].ratings.push(Math.floor(Math.random() * 6));
-                         
-                }
-        }
-        console.log(rateProduct(products));
+        // function rateProduct(products){
+        //         for(let i= 0; i < products.length; i++){
+        //                 if(products[i].ratings.length == 0) { 
+        //                         products[i].ratings.push(`rate: ${Math.ceil(Math.random() * 3)}`);
+        //                         return products[i]
+        //                 }
+                        
+        //         }
+        //     }
+        //     console.log(rateProduct(products));
+
+
+        // function averageRating(obj){
+        //         let rateArr = [];
+        //         for(let values of ratings){
+        //                 rateArr.push(rate)
+        //         }
+        //         console.log(rateArr)
+        //      if(obj.ratings.rate )
+              
+        // }
+        // console.log(averageRating())
 
 /* 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove 
 like if it was liked. */
