@@ -344,29 +344,21 @@ incomes and its description and expenses is a set of incomes and its description
 
 /* 4. Create a function called likeProduct. This function will help to like to the product if it is not liked and remove 
 like if it was liked. */
-        // function likeProduct(obj){
-        //         let idArray = [];
-        //         // Here I want to loop through the users object and push all ids into the idArray
-        //         for(let key in users){
-        //                 idArray.push(users[key]._id)
-        //         }
+        function likeProduct(obj){
+                let idArray = userss.map((user)=> user._id);
                 
-        //         // Here the main function begins its work
-        //         let randomId = idArray[Math.floor(Math.random() * 5)]
-        //         for(let i of users){
-        //                 if(obj.likes.length == 0){
-        //                         obj.likes.push(randomId)
-        //                 }
-        //                 else{obj.likes.pop()}  
-        //         }
-        //         return obj;
-        // }
+                let randomId = idArray[Math.floor(Math.random() * idArray.length)];
+                
+                        obj.likes.length ? obj.likes.push(randomId) : obj.likes.pop();  
+                
+                return obj;
+        }
 
-        // console.log(likeProduct({
-        //         _id: 'aegfal',
-        //         name: 'Laptop',
-        //         description: 'MacPro: System Darwin',
-        //         price: 2500,
-        //         ratings: [],
-        //         likes: ['fg12cy']
-        //       }));
+        console.log(likeProduct({
+                _id: 'aegfal',
+                name: 'Laptop',
+                description: 'MacPro: System Darwin',
+                price: 2500,
+                ratings: [],
+                likes: ['fg12cy']
+              }));
