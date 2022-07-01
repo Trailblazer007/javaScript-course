@@ -331,14 +331,42 @@ incomes and its description and expenses is a set of incomes and its description
         //         likes: []
         //       }))
 
-        // function averageRating(arr){
+              // -- Next Method -- // This method takes in the whole array
+
+        // function averageRating1(arr){
         //         return arr.map((product) => {
         //                 let totalRatings = product.ratings.reduce((acc, cv)=> acc + cv.rate, 0);
         //                 return totalRatings/product.ratings.length;
         //         })
 
         // }
-        // console.log(averageRating(products))
+        // console.log(averageRating1(products));
 
-/* 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove 
+/* 4. Create a function called likeProduct. This function will help to like to the product if it is not liked and remove 
 like if it was liked. */
+        // function likeProduct(obj){
+        //         let idArray = [];
+        //         // Here I want to loop through the users object and push all ids into the idArray
+        //         for(let key in users){
+        //                 idArray.push(users[key]._id)
+        //         }
+                
+        //         // Here the main function begins its work
+        //         let randomId = idArray[Math.floor(Math.random() * 5)]
+        //         for(let i of users){
+        //                 if(obj.likes.length == 0){
+        //                         obj.likes.push(randomId)
+        //                 }
+        //                 else{obj.likes.pop()}  
+        //         }
+        //         return obj;
+        // }
+
+        // console.log(likeProduct({
+        //         _id: 'aegfal',
+        //         name: 'Laptop',
+        //         description: 'MacPro: System Darwin',
+        //         price: 2500,
+        //         ratings: [],
+        //         likes: ['fg12cy']
+        //       }));
