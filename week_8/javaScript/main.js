@@ -345,13 +345,13 @@ incomes and its description and expenses is a set of incomes and its description
 /* 4. Create a function called likeProduct. This function will help to like to the product if it is not liked and remove 
 like if it was liked. */
         function likeProduct(obj){
-                let idArray = userss.map((user)=> user._id);
+                let idArray = users.map((user)=> user._id);
                 
                 let randomId = idArray[Math.floor(Math.random() * idArray.length)];
                 
-                        obj.likes.length ? obj.likes.push(randomId) : obj.likes.pop();  
+                obj.likes.length ? obj.likes.push(randomId) : obj.likes.pop();  
                 
-                return obj;
+                        return obj;
         }
 
         console.log(likeProduct({
