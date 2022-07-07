@@ -13,6 +13,11 @@ const products = [
 ]
 
 // 1. Explain the difference between forEach, map, filter, and reduce.
+    // forEach loops over array elements.
+    // map also loops over arrays, but returns an array of the desired items.
+    // filter is similar to map, just that it checks if each item in the array passes a certain condition and also returns an array
+    // reduce takes in two arguments, loops over an array and performs a callback function.
+
 // 2. Define a callback function before you use it in forEach, map, filter or reduce.
 // 3. Use forEach to console.log each country in the countries array.
 // 4. Use forEach to console.log each name in the names array.
