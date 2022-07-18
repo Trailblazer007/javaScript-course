@@ -19,6 +19,32 @@ const products = [
     // reduce takes in two arguments, loops over an array and performs a callback function.
 
 // 2. Define a callback function before you use it in forEach, map, filter or reduce.
+    const newNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    const callBackFunc = (item) => {
+        sum = 0;
+        sum += 111
+    }
+
+    
+
+        // using forEach
+    const lessThanFive = newNumbers.forEach(number => number <= 5)
+    console.log(lessThanFive);
+    
+        // using map
+    // const lessThanFive = newNumbers.map(number => number > 5)
+    // console.log(lessThanFive);
+    
+        // using filter
+    // const lessThanFive = newNumbers.filter(number => number > 5)
+    // console.log(lessThanFive);
+
+        // using reduce
+    // const lessThanFive = newNumbers.reduce((acc, cv) => acc > 5, 0)
+    // console.log(lessThanFive);
+
+
 // 3. Use forEach to console.log each country in the countries array.
 // 4. Use forEach to console.log each name in the names array.
 // 5. Use forEach to console.log each number in the numbers array.
