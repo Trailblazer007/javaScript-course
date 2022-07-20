@@ -19,36 +19,46 @@ const products = [
     // reduce takes in two arguments, loops over an array and performs a callback function.
 
 // 2. Define a callback function before you use it in forEach, map, filter or reduce.
-    const newNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // const newNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    const callBackFunc = function(newNumbers){return newNumbers};
+    // const callBackFunc = function(newNumbers){return newNumbers};
     // console.log(callBackFunc(newNumbers))    
 
     
 
         // using forEach
-    const secondArray = ['Milk', 'Coffee', 'Tea'];
-    const secondFunc = (item, index, arr) => {arr[index] = 'I bought ' + item + ',' }
-    secondArray.forEach(secondFunc)
-    
-    console.log(secondArray);
+    // const secondArray = ['Milk', 'Coffee', 'Tea'];
+    // const secondFunc = (item, index, arr) => {arr[index] = 'I bought ' + item + ',' }
+    // secondArray.forEach(secondFunc)
+
+    // console.log(secondArray);
     
         // using map
-    const mapped = newNumbers.map(callBackFunc)
-    console.log(mapped);
+    // const mapped = newNumbers.map(callBackFunc)
+    // console.log(mapped);
     
         // using filter
-    const filtered = newNumbers.filter(callBackFunc)
-    console.log(filtered);
+    // const filtered = newNumbers.filter(callBackFunc)
+    // console.log(filtered);
 
         // using reduce
-        const callBack2 = function(acc, cv){return acc + cv};
+    //     const callBack2 = function(acc, cv){return acc + cv};
         
-    const reduced = newNumbers.reduce(callBack2)
-    console.log(reduced);
+    // const reduced = newNumbers.reduce(callBack2)
+    // console.log(reduced);
 
 
 // 3. Use forEach to console.log each country in the countries array.
+    // function showItems(item){ 
+    //     console.log(item)
+    // }
+
+    // countries.forEach(showItems);
+
+    // or
+
+    // countries.forEach(item => console.log(item))
+
 // 4. Use forEach to console.log each name in the names array.
 // 5. Use forEach to console.log each number in the numbers array.
 // 6. Use map to create a new array by changing each country to uppercase in the countries array.
