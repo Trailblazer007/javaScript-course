@@ -1,8 +1,8 @@
 // Exercises: Level 1
 
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook'];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const products = [
   { product: 'banana', price: 3 },
   { product: 'mango', price: 6 },
@@ -10,7 +10,7 @@ const products = [
   { product: 'avocado', price: 8 },
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
-]
+];
 
 // 1. Explain the difference between forEach, map, filter, and reduce.
     // forEach loops over array elements.
@@ -79,10 +79,12 @@ const products = [
     // console.log(squaredNumbers)
 
 // 9. Use map to change to each name to uppercase in the names array
-    const namesInCaps = names.map(name => name.toUpperCase());
-    console.log(namesInCaps)
+    // const namesInCaps = names.map(name => name.toUpperCase());
+    // console.log(namesInCaps)
 
 // 10. Use map to map the products array to its corresponding prices.
+    // const productsAndPrices = products.map(item => `${item.product}: ${item.price}`)
+    // console.log(productsAndPrices)
 
 // 11. Use filter to filter out countries containing land.
 
@@ -101,28 +103,44 @@ const products = [
 
 /* 18. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand 
         are north European countries */
+
 // 19. Explain the difference between some and every
+
 // 20. Use some to check if some names' length greater than seven in names array
+
 // 21. Use every to check if all the countries contain the word land
+
 // 22. Explain the difference between find and findIndex.
+
 // 23. Use find to find the first country containing only six letters in the countries array
+
 // 24. Use findIndex to find the position of the first country containing only six letters in the countries array
+
 // 25. Use findIndex to find the position of Norway if it doesn't exist in the array you will get -1.
+
 // 26. Use findIndex to find the position of Russia if it doesn't exist in the array you will get -1.
+
 
 
 // Exercises: Level 2
 
 // 1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
+
 // 2. Find the sum of price of products using only reduce reduce(callback))
+
 /* 3. Declare a function called categorizeCountries which returns an array of countries which have some common pattern
 (you find the countries array in this repository as countries.js(eg 'land', 'ia', 'island','stan')). */
+
 /* 4. Create a function which return an array of objects, which is the letter and the number of times the letter use to start with 
 a name of a country. */
+
 /* 5. Declare a getFirstTenCountries function and return an array of ten countries. Use different functional programming to work on the
  countries.js array */
+
 // 6. Declare a getLastTenCountries function which which returns the last ten countries in the countries array.
+
 // 7. Find out which letter is used many times as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+
 
 // Exercises: Level 3
 
