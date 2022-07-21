@@ -66,11 +66,13 @@ const products = [
     // numbers.forEach(number => console.log(number))
 
 // 6. Use map to create a new array by changing each country to uppercase in the countries array.
-    const countriesInCaps = countries.map(country => country.toUpperCase());
-    console.log(countriesInCaps)
+    // const countriesInCaps = countries.map(country => country.toUpperCase());
+    // console.log(countriesInCaps)
 
 
 // 7. Use map to create an array of countries length from countries array.
+    const lengthOfCountries = countries.map(country => country.length);
+    console.log(lengthOfCountries)
 
 // 8. Use map to create a new array by changing each number to square in the numbers array
 
