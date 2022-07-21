@@ -75,10 +75,12 @@ const products = [
     // console.log(lengthOfCountries)
 
 // 8. Use map to create a new array by changing each number to square in the numbers array
-    const squaredNumbers = numbers.map(number => number ** 2);
-    console.log(squaredNumbers)
+    // const squaredNumbers = numbers.map(number => number ** 2);
+    // console.log(squaredNumbers)
 
 // 9. Use map to change to each name to uppercase in the names array
+    const namesInCaps = names.map(name => name.toUpperCase());
+    console.log(namesInCaps)
 
 // 10. Use map to map the products array to its corresponding prices.
 
