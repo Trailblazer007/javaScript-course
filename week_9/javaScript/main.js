@@ -63,6 +63,8 @@ const products = [
     // names.forEach(name => console.log(name))
 
 // 5. Use forEach to console.log each number in the numbers array.
+    // numbers.forEach(number => console.log(number))
+
 // 6. Use map to create a new array by changing each country to uppercase in the countries array.
 // 7. Use map to create an array of countries length from countries array.
 // 8. Use map to create a new array by changing each number to square in the numbers array
