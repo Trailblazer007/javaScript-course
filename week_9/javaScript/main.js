@@ -98,6 +98,10 @@ const products = [
     //first method
     // let moreThanSixLengthedCountries = countries.filter(country => country.length = 6);
     // console.log(moreThanSixLengthedCountries);
+
+    //second method
+    // let moreThanSixLengthedCountries = countries.filter(country => country.length >= 6);    
+    // console.log(moreThanSixLengthedCountries);
     
 
 // 14. Use filter to filter out country start with 'E';
