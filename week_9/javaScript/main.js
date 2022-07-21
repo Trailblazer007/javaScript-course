@@ -109,6 +109,9 @@ const products = [
     // console.log(countriesThatStartWith_E);
 
 // 15. Use filter to filter out only prices with values.
+   const withPrice = products.filter(product => !product.price.length && product.price.length !== 0 );
+   console.log(withPrice)
+   
 
 /* 16. Declare a function called getStringLists which takes an array as a parameter and then returns an array 
     only with string items.*/
