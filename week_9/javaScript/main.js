@@ -95,6 +95,10 @@ const products = [
     // console.log(countriesWithSixChar);
 
 // 13. Use filter to filter out countries containing six letters and more in the country array.
+    //first method
+    // let moreThanSixLengthedCountries = countries.filter(country => country.length = 6);
+    // console.log(moreThanSixLengthedCountries);
+    
 
 // 14. Use filter to filter out country start with 'E';
 
