@@ -105,6 +105,8 @@ const products = [
     
 
 // 14. Use filter to filter out country start with 'E';
+    // const countriesThatStartWith_E = countries.filter(country => country.startsWith("E"));
+    // console.log(countriesThatStartWith_E);
 
 // 15. Use filter to filter out only prices with values.
 
