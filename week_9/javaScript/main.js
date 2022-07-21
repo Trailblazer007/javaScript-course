@@ -87,10 +87,12 @@ const products = [
     // console.log(productsAndPrices)
 
 // 11. Use filter to filter out countries containing land.
-    const countriesWithLand = countries.filter(country => country.includes('land'));
-    console.log(countriesWithLand);
+    // const countriesWithLand = countries.filter(country => country.includes('land'));
+    // console.log(countriesWithLand);
 
 // 12. Use filter to filter out countries having six character.
+    // const countriesWithSixChar = countries.filter(country => country.length == 6);
+    // console.log(countriesWithSixChar);
 
 // 13. Use filter to filter out countries containing six letters and more in the country array.
 
