@@ -109,14 +109,22 @@ const products = [
     // console.log(countriesThatStartWith_E);
 
 // 15. Use filter to filter out only prices with values.
-   const withPrice = products.filter(product => !product.price.length && product.price.length !== 0 );
-   console.log(withPrice)
+//    const withPrice = products.filter(product => !product.price.length && product.price.length !== 0 );
+//    console.log(withPrice)
    
 
 /* 16. Declare a function called getStringLists which takes an array as a parameter and then returns an array 
     only with string items.*/
+    
+
+    
+
+    
+    
 
 // 17. Use reduce to sum all the numbers in the numbers array.
+    let summedNumbers = numbers.reduce((acc, cv) => acc + cv)
+    console.log(summedNumbers)
 
 /* 18. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand 
         are north European countries */
