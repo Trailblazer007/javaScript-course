@@ -115,16 +115,16 @@ const products = [
 
 /* 16. Declare a function called getStringLists which takes an array as a parameter and then returns an array 
     only with string items.*/
-    
+    function getStringLists(array){
+       let result =  array.filter(item => typeof item == 'string' ) ;
+       return result   
+    }
+    console.log(getStringLists([1, true, null, 'javaScript']))
 
-    
-
-    
-    
 
 // 17. Use reduce to sum all the numbers in the numbers array.
-    let summedNumbers = numbers.reduce((acc, cv) => acc + cv)
-    console.log(summedNumbers)
+    // let summedNumbers = numbers.reduce((acc, cv) => acc + cv)
+    // console.log(summedNumbers)
 
 /* 18. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand 
         are north European countries */
