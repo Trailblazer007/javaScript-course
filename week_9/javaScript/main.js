@@ -115,11 +115,11 @@ const products = [
 
 /* 16. Declare a function called getStringLists which takes an array as a parameter and then returns an array 
     only with string items.*/
-    function getStringLists(array){
-       let result =  array.filter(item => typeof item == 'string' ) ;
-       return result   
-    }
-    console.log(getStringLists([1, true, null, 'javaScript']))
+    // function getStringLists(array){
+    //    let result =  array.filter(item => typeof item == 'string' ) ;
+    //    return result   
+    // }
+    // console.log(getStringLists([1, true, null, 'javaScript']))
 
 
 // 17. Use reduce to sum all the numbers in the numbers array.
@@ -129,7 +129,23 @@ const products = [
 /* 18. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand 
         are north European countries */
 
+    // const countriesSentence = countries.reduce((acc, cv) =>{return acc.concat(`${cv}, `)},"Estonia, ");
+    // console.log(countriesSentence)
+
+    // From Rajah
+    const countriesSentence = countries.reduce((acc, cv, index, arr)=> {
+        index === arr.length-1 && (cv = `and ${cv} are north European countries `)
+        return acc + `, ${cv}`
+    }, "Estonia")
+    console.log(countriesSentence)
+    
+
 // 19. Explain the difference between some and every
+    /* "every" is a method that checks if all the items in an array satisfy a given condition and returns - true if all the 
+    items pass the test.
+
+    On the other hand, "some" is a method that checks if at least one of the items in an array passes a given condition and returns - true
+    when this happens    */
 
 // 20. Use some to check if some names' length greater than seven in names array
 
