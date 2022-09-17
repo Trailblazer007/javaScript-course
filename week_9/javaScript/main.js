@@ -155,8 +155,9 @@ const products = [
     While
     "findIndex" returns the index of the first element that satisfies the condition. */
 
-
 // 23. Use find to find the first country containing only six letters in the countries array
+    // let countryWithSixLetters = countries.find(c => c.length === 6);
+    // console.log(countryWithSixLetters);
 
 // 24. Use findIndex to find the position of the first country containing only six letters in the countries array
 
