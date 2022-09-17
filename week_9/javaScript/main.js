@@ -160,6 +160,8 @@ const products = [
     // console.log(countryWithSixLetters);
 
 // 24. Use findIndex to find the position of the first country containing only six letters in the countries array
+    // let firstCountryWithSixLetters = countries.findIndex(c => c.length === 6);
+    // console.log(firstCountryWithSixLetters);
 
 // 25. Use findIndex to find the position of Norway if it doesn't exist in the array you will get -1.
 
