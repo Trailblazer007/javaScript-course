@@ -129,15 +129,12 @@ const products = [
 /* 18. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand 
         are north European countries */
 
-    // const countriesSentence = countries.reduce((acc, cv) =>{return acc.concat(`${cv}, `)},"Estonia, ");
+    
+    // const countriesSentence = countries.reduce((acc, cv, index, arr)=> {
+    //     index === arr.length-1 && (cv = `and ${cv} are north European countries `)
+    //     return acc + `, ${cv}`
+    // }, "Estonia")
     // console.log(countriesSentence)
-
-    // From Rajah
-    const countriesSentence = countries.reduce((acc, cv, index, arr)=> {
-        index === arr.length-1 && (cv = `and ${cv} are north European countries `)
-        return acc + `, ${cv}`
-    }, "Estonia")
-    console.log(countriesSentence)
     
 
 // 19. Explain the difference between some and every
@@ -148,6 +145,7 @@ const products = [
     when this happens    */
 
 // 20. Use some to check if some names' length greater than seven in names array
+    // console.log(names.some(e => e.length > 7));
 
 // 21. Use every to check if all the countries contain the word land
 
