@@ -164,6 +164,8 @@ const products = [
     // console.log(firstCountryWithSixLetters);
 
 // 25. Use findIndex to find the position of Norway if it doesn't exist in the array you will get -1.
+    // let firstIndexOfNorway = countries.findIndex(country => country === 'Norway');
+    // console.log(firstIndexOfNorway);
 
 // 26. Use findIndex to find the position of Russia if it doesn't exist in the array you will get -1.
 
