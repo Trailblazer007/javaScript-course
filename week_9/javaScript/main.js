@@ -177,6 +177,11 @@ const products = [
 // Exercises: Level 2
 
 // 1. Find the total price of products by chaining two or more array iterators(eg. arr.map(callback).filter(callback).reduce(callback))
+    // let totalPrice = products.filter(product => !product.price.length && product.price.length !==0)
+    //     .map(item => item.price)
+    //     .reduce((acc, cur) => acc + cur);
+    
+    // console.log(totalPrice)
 
 // 2. Find the sum of price of products using only reduce reduce(callback))
 
