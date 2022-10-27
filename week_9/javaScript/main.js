@@ -416,6 +416,9 @@ const products = [
 // console.log(getFirstTenCountries(countriesLong));
 
 // 6. Declare a getLastTenCountries function which which returns the last ten countries in the countries array.
+// const getLastTenCountries = (arr) => arr.slice(-10);
+
+// console.log(getLastTenCountries(countriesLong));
 
 // 7. Find out which letter is used many times as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
 
