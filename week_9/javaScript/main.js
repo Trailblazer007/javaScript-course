@@ -387,8 +387,8 @@ const products = [
 // }
 // console.log(categorizeCountries("den"));
 
-// /* 4. Create a function which returns an array of objects, which is the letter and the number of times the letter use to start with
-//         a name of a country. */
+/* 4. Create a function which returns an array of objects, which is the letter and the number of times the letter use to start with
+        a name of a country. */
 
 // const firstLetterCount = (arr) => {
 //   let obj = arr.reduce((acc, curr) => {
@@ -421,6 +421,21 @@ const products = [
 // console.log(getLastTenCountries(countriesLong));
 
 // 7. Find out which letter is used many times as initial for a country name from the countries array (eg. Finland, Fiji, France etc)
+// const mostLetterCount = (arr) => {
+//     let firstLetterCount = countriesLong.reduce((acc, curr) => {
+//     letter = curr.slice(0,1);
+//     !acc[letter] ? acc[letter] = 1 : acc[letter]++;
+//     return acc;
+//   }, {})
+
+//   let answer = Math.max(...Object.values(firstLetterCount));
+//   for(let b in firstLetterCount){
+//     if(firstLetterCount[b] == answer){
+//       return b
+//     }
+//   }
+// }
+// console.log(mostLetterCount(countriesLong));
 
 // Exercises: Level 3
 
